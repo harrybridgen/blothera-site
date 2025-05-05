@@ -33,68 +33,69 @@ export default function NationsPage() {
       </section>
 
       {/* Nations System Overview */}
-		<section className="py-16 bg-gradient-to-b from-black to-gray-900">
-		  <div className="container mx-auto px-4">
-			<div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-			  <div>
-				<h2 className="text-3xl font-bold mb-6 font-minecraft text-red-500">FORGE A NATION</h2>
-				<p className="text-gray-300 mb-6">
-				  In Blothera, a nation isn't claimed with a command — it's built with a crown, a lectern, and a legacy. Nations are formed through ritual, expanded with intention, and remembered by the land itself.
-				</p>
+<section className="py-16 bg-gradient-to-b from-black to-gray-900">
+  <div className="container mx-auto px-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 className="text-3xl font-bold mb-6 font-minecraft text-red-500">FORGE A NATION</h2>
+        <p className="text-gray-300 mb-6">
+          In Blothera, nations are not claimed — they are born. Forged through legacy, ritual, and resolve, each nation carries the weight of real effort and real meaning.
+        </p>
 
-				<div className="space-y-6">
-				  <div className="flex items-start gap-4">
-					<div className="mt-1 bg-red-900/30 p-2 rounded-full">
-					  <Flag className="h-5 w-5 text-red-500" />
-					</div>
-					<div>
-					  <h3 className="font-bold text-white text-lg">Crowned Leadership</h3>
-					  <p className="text-gray-400">
-						Nations can only be founded by players who earn a Crown — forged from the Dragon Egg itself.
-					  </p>
-					</div>
-				  </div>
+        <div className="space-y-6">
+          <div className="flex items-start gap-4">
+            <div className="mt-1 bg-red-900/30 p-2 rounded-full">
+              <Flag className="h-5 w-5 text-red-500" />
+            </div>
+            <div>
+              <h3 className="font-bold text-white text-lg">Earned Authority</h3>
+              <p className="text-gray-400">
+                Leadership must be claimed, not typed. Only those who rise through challenge can found a nation.
+              </p>
+            </div>
+          </div>
 
-				  <div className="flex items-start gap-4">
-					<div className="mt-1 bg-red-900/30 p-2 rounded-full">
-					  <Building className="h-5 w-5 text-red-500" />
-					</div>
-					<div>
-					  <h3 className="font-bold text-white text-lg">Physical Infrastructure</h3>
-					  <p className="text-gray-400">
-						Towns are founded with emeralds and books, not commands. Expand your reach through trade, roads, and diplomacy.
-					  </p>
-					</div>
-				  </div>
+          <div className="flex items-start gap-4">
+            <div className="mt-1 bg-red-900/30 p-2 rounded-full">
+              <Building className="h-5 w-5 text-red-500" />
+            </div>
+            <div>
+              <h3 className="font-bold text-white text-lg">Tangible Expansion</h3>
+              <p className="text-gray-400">
+                Villages, roads, alliances — your nation expands by action, not admin. Everything is built, everything is earned.
+              </p>
+            </div>
+          </div>
 
-				  <div className="flex items-start gap-4">
-					<div className="mt-1 bg-red-900/30 p-2 rounded-full">
-					  <Users className="h-5 w-5 text-red-500" />
-					</div>
-					<div>
-					  <h3 className="font-bold text-white text-lg">Diplomacy & Trust</h3>
-					  <p className="text-gray-400">
-						Nations declare war, accept vassals, and shape the map — all through books, chests, and lecterns. No UIs. No shortcuts.
-					  </p>
-					</div>
-				  </div>
-				</div>
-			  </div>
+          <div className="flex items-start gap-4">
+            <div className="mt-1 bg-red-900/30 p-2 rounded-full">
+              <Users className="h-5 w-5 text-red-500" />
+            </div>
+            <div>
+              <h3 className="font-bold text-white text-lg">Diplomacy That Matters</h3>
+              <p className="text-gray-400">
+                Alliances, vassals, betrayals — Blothera remembers every choice. Politics isn’t a menu. It’s a legacy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-			  <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-6 text-center">
-				<h3 className="text-xl font-bold mb-4 font-minecraft">THE WORLD REMEMBERS</h3>
-				<p className="text-gray-400 text-sm">
-				  The land keeps record of every nation — active or fallen. If you wear the Crown, your name will be written into the world’s memory.
-				</p>
-				<div className="mt-6">
-				  <Button variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20">
-					View Nation Archives
-				  </Button>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</section>
+      <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-6 text-center">
+        <h3 className="text-xl font-bold mb-4 font-minecraft">EVERY NAME IS CARVED IN STONE</h3>
+        <p className="text-gray-400 text-sm">
+          Blothera remembers every nation that rises — and every one that falls. The world itself is your record.
+        </p>
+        <div className="mt-6">
+          <Button variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20">
+            View Nation Archives
+          </Button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
       {/* Warfare System */}
@@ -102,7 +103,7 @@ export default function NationsPage() {
   <div className="container mx-auto px-4">
     <h2 className="text-3xl font-bold mb-8 text-center font-minecraft text-red-500">STRUCTURED WARFARE</h2>
     <p className="text-gray-300 text-center max-w-3xl mx-auto mb-12">
-      War in Blothera is not chaos. It's scheduled, opt-in, and real. Nations must declare their goals publicly and fight on neutral ground using strategy, not brute force.
+      War in Blothera is not chaos. It’s earned, scheduled, and orchestrated by those who lead. Every decision carries weight. Every battle has consequence.
     </p>
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -110,14 +111,14 @@ export default function NationsPage() {
         <div className="bg-red-900/20 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
           <Swords className="h-8 w-8 text-red-500" />
         </div>
-        <h3 className="text-xl font-bold mb-3 font-minecraft">OPT-IN BATTLES</h3>
+        <h3 className="text-xl font-bold mb-3 font-minecraft">OPT-IN CONFLICT</h3>
         <p className="text-gray-300 mb-4">
-          PvP is never forced. Nation leaders must rally support before battles begin. Every fight is earned.
+          No ambushes. No grief raids. Every war must be declared, every fight must be agreed upon — and announced.
         </p>
         <ul className="text-gray-400 text-sm space-y-1">
-          <li>• Scheduled engagements</li>
-          <li>• Compass-guided battlefields</li>
-          <li>• No teleporting, no cheating</li>
+          <li>• Public war declarations</li>
+          <li>• Structured battle windows</li>
+          <li>• Consent-based combat</li>
         </ul>
       </div>
 
@@ -125,14 +126,14 @@ export default function NationsPage() {
         <div className="bg-red-900/20 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
           <Map className="h-8 w-8 text-red-500" />
         </div>
-        <h3 className="text-xl font-bold mb-3 font-minecraft">REAL TERRAIN</h3>
+        <h3 className="text-xl font-bold mb-3 font-minecraft">THE LAND IS THE ARENA</h3>
         <p className="text-gray-300 mb-4">
-          Battles happen in randomly chosen Overworld locations. No curated arenas — only survival and adaptation.
+          Battles take place across real terrain — not prebuilt maps. Forests, plains, and oceans become your battlefield.
         </p>
         <ul className="text-gray-400 text-sm space-y-1">
-          <li>• Plains, forests, oceans, mountains</li>
-          <li>• Defenders pick the day & time</li>
-          <li>• Every battle affects the war score</li>
+          <li>• Dynamic battlegrounds</li>
+          <li>• Defender picks location</li>
+          <li>• No teleportation, no shortcuts</li>
         </ul>
       </div>
 
@@ -140,14 +141,14 @@ export default function NationsPage() {
         <div className="bg-red-900/20 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
           <Shield className="h-8 w-8 text-red-500" />
         </div>
-        <h3 className="text-xl font-bold mb-3 font-minecraft">VASSALS & CONSEQUENCES</h3>
+        <h3 className="text-xl font-bold mb-3 font-minecraft">CONSEQUENCES THAT STICK</h3>
         <p className="text-gray-300 mb-4">
-          Smaller nations can swear fealty for protection. War has meaning — surrender is possible, rebellion is earned.
+          Losing a war doesn't just mean losing a fight. It can reshape alliances, change territories, or fracture your nation entirely.
         </p>
         <ul className="text-gray-400 text-sm space-y-1">
-          <li>• Tribute systems</li>
-          <li>• Vassal protections</li>
-          <li>• Rebellions change history</li>
+          <li>• Tribute & surrender options</li>
+          <li>• Real diplomatic fallout</li>
+          <li>• History is written by participation</li>
         </ul>
       </div>
     </div>
@@ -155,45 +156,45 @@ export default function NationsPage() {
 </section>
 
 
+
       {/* War Stories */}
-      <section className="py-16 bg-gradient-to-b from-black to-red-900/20">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-center">WAR STORIES</h2>
-          <div className="max-w-4xl mx-auto bg-black/60 border border-gray-800 rounded-lg p-6">
-            <div className="space-y-6">
-              <div className="border-b border-gray-800 pb-6">
-                <h3 className="text-xl font-bold mb-2">The Fall of Westhold</h3>
-                <p className="text-gray-400 mb-4">
-                  "The siege lasted three days. The Crimson Empire brought five trebuchets and over thirty mercenaries.
-                  Our walls held for two days, but they breached the eastern gate on the third morning. We lost
-                  everything. But we'll rebuild, and we'll have our revenge."
-                </p>
-                <p className="text-sm text-gray-500">— Former citizen of Westhold, destroyed 12 days ago</p>
-              </div>
-
-              <div className="border-b border-gray-800 pb-6">
-                <h3 className="text-xl font-bold mb-2">The Battle of Red Valley</h3>
-                <p className="text-gray-400 mb-4">
-                  "We intercepted their supply caravan in the valley. Cut off from resources, their siege of Northern
-                  Keep failed within days. Their mercenaries deserted, and their army retreated in disarray. A victory
-                  without a single direct engagement."
-                </p>
-                <p className="text-sm text-gray-500">— Commander of the Northern Alliance, 5 days ago</p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-bold mb-2">The Desert Alliance</h3>
-                <p className="text-gray-400 mb-4">
-                  "Facing threats from both the Crimson Empire and the Northern Alliance, we had no choice but to form a
-                  pact with the Forest Keepers. Our combined territories now span from the eastern deserts to the
-                  western forests. Let them try to invade us now."
-                </p>
-                <p className="text-sm text-gray-500">— Leader of the Desert Nomads, 2 days ago</p>
-              </div>
-            </div>
-          </div>
+<section className="py-16 bg-gradient-to-b from-black to-red-900/20">
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl font-bold mb-8 text-center">WAR STORIES</h2>
+    <div className="max-w-4xl mx-auto bg-black/60 border border-gray-800 rounded-lg p-6">
+      <div className="space-y-6">
+        <div className="border-b border-gray-800 pb-6">
+          <h3 className="text-xl font-bold mb-2">The Fall of Westhold</h3>
+          <p className="text-gray-400 mb-4">
+            "They came at dawn on the third day. The Crimson Empire had siege crews dragging iron barrels on wheels, firing blasts that cracked stone like thunder. 
+            We held the walls for as long as we could, but when the eastern gate gave way, it was over. Fires broke out across the inner keep. Most of us fled into the mines. "
+          </p>
+          <p className="text-sm text-gray-500">— Survivor of Westhold</p>
         </div>
-      </section>
+
+<div className="border-b border-gray-800 pb-6">
+  <h3 className="text-xl font-bold mb-2">The Battle of Red Valley</h3>
+  <p className="text-gray-400 mb-4">
+    "Scouts spotted their supply train early — mules packed with bread, arrows, and iron shells. 
+    We collapsed the bridge at Red River and buried charges near the ford. 
+    They never reached our gates. By week's end, their ranks were scattered — no food, no firepower, no resolve."
+  </p>
+  <p className="text-sm text-gray-500">— Leader of the Northern Alliance</p>
+</div>
+
+
+        <div>
+          <h3 className="text-xl font-bold mb-2">The Desert Alliance</h3>
+			<p className="text-gray-400 mb-4">
+				"We were surrounded on every side. But the Forest Keepers came. They didn’t ask for promises, just a place to stand. Together, we carved paths through dust and root, and built something stronger than walls: trust."
+			</p>
+			<p className="text-sm text-gray-500">— Elder of the Nomads</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-b from-red-900/20 to-black">
