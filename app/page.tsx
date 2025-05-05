@@ -38,18 +38,15 @@ export default function Home() {
               JOIN THE WORLD
               <ChevronRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft"
-				<a href="https://discord.blothera.com" target="_blank" rel="noopener noreferrer">
-				  DISCORD
-				</a>
+<a
+  href="https://discord.blothera.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center justify-center px-6 py-3 border border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft rounded-md text-sm"
+>
+  DISCORD
+</a>
 
-
-            >
-              DISCORD
-            </Button>
           </div>
         </div>
       </section>
