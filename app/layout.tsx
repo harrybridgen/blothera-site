@@ -2,14 +2,10 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: {
-    default: "Blothera",
-    template: "%s | Blothera",
-  },
-  description: "Blothera is a brutal, living world built on trust and survival.",
-  generator: "Hand Crafted. Shaped by fire.",
+  title: 'v0 App',
+  description: 'Created with v0',
+  generator: 'v0.dev',
 }
-
 
 export default function RootLayout({
   children,

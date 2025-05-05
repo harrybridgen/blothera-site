@@ -28,13 +28,8 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <h3 className="text-lg font-bold text-white mb-4 font-minecraft">SERVER</h3>
+            <h3 className="text-lg font-bold text-white mb-4 font-minecraft">LINKS</h3>
             <ul className="space-y-2">
-              <li>
-                <Link href="/server" className="text-gray-400 hover:text-red-400 text-sm">
-                  Server Info
-                </Link>
-              </li>
               <li>
                 <Link href="/nations" className="text-gray-400 hover:text-red-400 text-sm">
                   Nations & Warfare
@@ -46,33 +41,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/status" className="text-gray-400 hover:text-red-400 text-sm">
-                  Server Status
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-lg font-bold text-white mb-4 font-minecraft">COMMUNITY</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-red-400 text-sm">
+                <Link href="https://discord.gg/blothera" className="text-gray-400 hover:text-red-400 text-sm">
                   Discord
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-red-400 text-sm">
-                  Player Stories
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-red-400 text-sm">
-                  Screenshots
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-400 hover:text-red-400 text-sm">
-                  Leaderboards
                 </Link>
               </li>
             </ul>

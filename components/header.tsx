@@ -31,17 +31,11 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
-          <Link href="/server" className="text-sm font-medium text-gray-300 hover:text-red-400">
-            SERVER INFO
-          </Link>
           <Link href="/nations" className="text-sm font-medium text-gray-300 hover:text-red-400">
             NATIONS
           </Link>
           <Link href="/rules" className="text-sm font-medium text-gray-300 hover:text-red-400">
             RULES
-          </Link>
-          <Link href="/community" className="text-sm font-medium text-gray-300 hover:text-red-400">
-            COMMUNITY
           </Link>
           <Button className="bg-red-600 hover:bg-red-700 text-white font-minecraft">JOIN NOW</Button>
         </nav>
@@ -57,13 +51,6 @@ export default function Header() {
         <div className="md:hidden">
           <div className="flex flex-col space-y-4 px-4 py-6 bg-gray-900/90 backdrop-blur-sm">
             <Link
-              href="/server"
-              className="text-sm font-medium text-gray-300 hover:text-red-400"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              SERVER INFO
-            </Link>
-            <Link
               href="/nations"
               className="text-sm font-medium text-gray-300 hover:text-red-400"
               onClick={() => setIsMenuOpen(false)}
@@ -76,13 +63,6 @@ export default function Header() {
               onClick={() => setIsMenuOpen(false)}
             >
               RULES
-            </Link>
-            <Link
-              href="/community"
-              className="text-sm font-medium text-gray-300 hover:text-red-400"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              COMMUNITY
             </Link>
             <Button
               className="bg-red-600 hover:bg-red-700 text-white w-full font-minecraft"

@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { ChevronRight, Shield, Skull, Flame, Mountain, Users, Heart } from "lucide-react"
 import Header from "@/components/header"
@@ -40,8 +42,9 @@ export default function Home() {
               size="lg"
               variant="outline"
               className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft"
+              onClick={() => window.open("https://discord.gg/blothera", "_blank")}
             >
-              SERVER INFO
+              DISCORD
             </Button>
           </div>
         </div>
