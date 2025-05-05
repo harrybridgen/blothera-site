@@ -42,7 +42,8 @@ export default function Home() {
               size="lg"
               variant="outline"
               className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft"
-              onClick={() => window.open("https://discord.gg/blothera", "_blank")}
+				onClick={() => window.open("https://discord.blothera.com", "_blank")}
+
             >
               DISCORD
             </Button>
@@ -229,9 +230,14 @@ export default function Home() {
                 </div>
 
                 <div className="mt-6 pt-4 border-t border-gray-700 text-center">
-                  <Button variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft">
-                    VIEW FULL RULES
-                  </Button>
+					<Button
+					  variant="outline"
+					  className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft"
+					  onClick={() => window.location.href = "/rules"}
+					>
+					  VIEW FULL RULES
+					</Button>
+
                 </div>
               </div>
             </div>
