@@ -42,7 +42,10 @@ export default function Home() {
               size="lg"
               variant="outline"
               className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft"
-				onClick={() => window.open("https://discord.blothera.com", "_blank")}
+				<a href="https://discord.blothera.com" target="_blank" rel="noopener noreferrer">
+				  DISCORD
+				</a>
+
 
             >
               DISCORD
@@ -284,7 +287,7 @@ export default function Home() {
           <div className="bg-black/50 border border-red-900/30 rounded-lg p-6 max-w-md mx-auto mb-8">
             <p className="text-gray-400 mb-4 font-mono">SERVER IP:</p>
             <p className="text-xl text-white font-mono bg-gray-800/50 p-2 rounded mb-4">play.blothera.com</p>
-            <p className="text-gray-400 text-sm">Java Edition 1.20.4</p>
+            <p className="text-gray-400 text-sm">Java Edition 1.21.5</p>
           </div>
           <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white font-minecraft">
             JOIN THE SERVER
