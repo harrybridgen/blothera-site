@@ -33,186 +33,127 @@ export default function NationsPage() {
       </section>
 
       {/* Nations System Overview */}
-      <section className="py-16 bg-gradient-to-b from-black to-gray-900">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-minecraft text-red-500">CUSTOM NATIONS SYSTEM</h2>
-              <p className="text-gray-300 mb-6">
-                Blothera features a completely custom-built nations system unlike anything else in Minecraft. This isn't
-                just claiming land - it's a full political and military simulation.
-              </p>
+		<section className="py-16 bg-gradient-to-b from-black to-gray-900">
+		  <div className="container mx-auto px-4">
+			<div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+			  <div>
+				<h2 className="text-3xl font-bold mb-6 font-minecraft text-red-500">FORGE A NATION</h2>
+				<p className="text-gray-300 mb-6">
+				  In Blothera, a nation isn't claimed with a command — it's built with a crown, a lectern, and a legacy. Nations are formed through ritual, expanded with intention, and remembered by the land itself.
+				</p>
 
-              <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <div className="mt-1 bg-red-900/30 p-2 rounded-full">
-                    <Flag className="h-5 w-5 text-red-500" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-white text-lg">Nation Formation</h3>
-                    <p className="text-gray-400">
-                      Create your nation, design a custom banner, establish your capital, and set your government type.
-                    </p>
-                  </div>
-                </div>
+				<div className="space-y-6">
+				  <div className="flex items-start gap-4">
+					<div className="mt-1 bg-red-900/30 p-2 rounded-full">
+					  <Flag className="h-5 w-5 text-red-500" />
+					</div>
+					<div>
+					  <h3 className="font-bold text-white text-lg">Crowned Leadership</h3>
+					  <p className="text-gray-400">
+						Nations can only be founded by players who earn a Crown — forged from the Dragon Egg itself.
+					  </p>
+					</div>
+				  </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="mt-1 bg-red-900/30 p-2 rounded-full">
-                    <Building className="h-5 w-5 text-red-500" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-white text-lg">Territory Control</h3>
-                    <p className="text-gray-400">
-                      Claim land, build outposts, and expand your influence. Territory provides resources and strategic
-                      advantages.
-                    </p>
-                  </div>
-                </div>
+				  <div className="flex items-start gap-4">
+					<div className="mt-1 bg-red-900/30 p-2 rounded-full">
+					  <Building className="h-5 w-5 text-red-500" />
+					</div>
+					<div>
+					  <h3 className="font-bold text-white text-lg">Physical Infrastructure</h3>
+					  <p className="text-gray-400">
+						Towns are founded with emeralds and books, not commands. Expand your reach through trade, roads, and diplomacy.
+					  </p>
+					</div>
+				  </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="mt-1 bg-red-900/30 p-2 rounded-full">
-                    <Users className="h-5 w-5 text-red-500" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-white text-lg">Citizen Management</h3>
-                    <p className="text-gray-400">
-                      Assign roles, manage permissions, and create a hierarchy. Every citizen contributes to your
-                      nation's power.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+				  <div className="flex items-start gap-4">
+					<div className="mt-1 bg-red-900/30 p-2 rounded-full">
+					  <Users className="h-5 w-5 text-red-500" />
+					</div>
+					<div>
+					  <h3 className="font-bold text-white text-lg">Diplomacy & Trust</h3>
+					  <p className="text-gray-400">
+						Nations declare war, accept vassals, and shape the map — all through books, chests, and lecterns. No UIs. No shortcuts.
+					  </p>
+					</div>
+				  </div>
+				</div>
+			  </div>
 
-            <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-6">
-              <h3 className="text-xl font-bold mb-4 font-minecraft">CURRENT NATIONS</h3>
-              <div className="space-y-4">
-                <div className="flex items-center justify-between border-b border-gray-800 pb-3">
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-red-900/50 rounded-sm flex items-center justify-center">
-                      <Shield className="h-6 w-6 text-red-500" />
-                    </div>
-                    <div>
-                      <span className="font-bold block">The Crimson Empire</span>
-                      <span className="text-xs text-gray-500">Founded 43 days ago</span>
-                    </div>
-                  </div>
-                  <div className="text-gray-400 text-sm">23 Citizens</div>
-                </div>
+			  <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-6 text-center">
+				<h3 className="text-xl font-bold mb-4 font-minecraft">THE WORLD REMEMBERS</h3>
+				<p className="text-gray-400 text-sm">
+				  The land keeps record of every nation — active or fallen. If you wear the Crown, your name will be written into the world’s memory.
+				</p>
+				<div className="mt-6">
+				  <Button variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20">
+					View Nation Archives
+				  </Button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</section>
 
-                <div className="flex items-center justify-between border-b border-gray-800 pb-3">
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-blue-900/50 rounded-sm flex items-center justify-center">
-                      <Shield className="h-6 w-6 text-blue-500" />
-                    </div>
-                    <div>
-                      <span className="font-bold block">Northern Alliance</span>
-                      <span className="text-xs text-gray-500">Founded 38 days ago</span>
-                    </div>
-                  </div>
-                  <div className="text-gray-400 text-sm">17 Citizens</div>
-                </div>
-
-                <div className="flex items-center justify-between border-b border-gray-800 pb-3">
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-green-900/50 rounded-sm flex items-center justify-center">
-                      <Shield className="h-6 w-6 text-green-500" />
-                    </div>
-                    <div>
-                      <span className="font-bold block">Forest Keepers</span>
-                      <span className="text-xs text-gray-500">Founded 29 days ago</span>
-                    </div>
-                  </div>
-                  <div className="text-gray-400 text-sm">12 Citizens</div>
-                </div>
-
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-yellow-900/50 rounded-sm flex items-center justify-center">
-                      <Shield className="h-6 w-6 text-yellow-500" />
-                    </div>
-                    <div>
-                      <span className="font-bold block">Desert Nomads</span>
-                      <span className="text-xs text-gray-500">Founded 15 days ago</span>
-                    </div>
-                  </div>
-                  <div className="text-gray-400 text-sm">8 Citizens</div>
-                </div>
-              </div>
-
-              <div className="mt-6 text-center">
-                <Button variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20">
-                  View All Nations
-                </Button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Warfare System */}
-      <section className="py-16 bg-black">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-center font-minecraft text-red-500">REALISTIC WARFARE</h2>
-          <p className="text-gray-300 text-center max-w-3xl mx-auto mb-12">
-            Blothera's warfare system goes beyond simple PvP. It's a complete military simulation with strategy,
-            logistics, and consequences.
-          </p>
+<section className="py-16 bg-black">
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl font-bold mb-8 text-center font-minecraft text-red-500">STRUCTURED WARFARE</h2>
+    <p className="text-gray-300 text-center max-w-3xl mx-auto mb-12">
+      War in Blothera is not chaos. It's scheduled, opt-in, and real. Nations must declare their goals publicly and fight on neutral ground using strategy, not brute force.
+    </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gray-900/30 border border-gray-800 rounded-lg p-6 hover:border-red-500/30 transition-all">
-              <div className="bg-red-900/20 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
-                <Swords className="h-8 w-8 text-red-500" />
-              </div>
-              <h3 className="text-xl font-bold mb-3 font-minecraft">SIEGE WARFARE</h3>
-              <p className="text-gray-300 mb-4">
-                Build trebuchets, battering rams, and siege towers. Breach walls and destroy fortifications with
-                realistic physics and damage systems.
-              </p>
-              <ul className="text-gray-400 text-sm space-y-1">
-                <li>• Custom-built siege weapons</li>
-                <li>• Destructible structures</li>
-                <li>• Wall breaching mechanics</li>
-                <li>• Defensive countermeasures</li>
-              </ul>
-            </div>
-
-            <div className="bg-gray-900/30 border border-gray-800 rounded-lg p-6 hover:border-red-500/30 transition-all">
-              <div className="bg-red-900/20 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
-                <Users className="h-8 w-8 text-red-500" />
-              </div>
-              <h3 className="text-xl font-bold mb-3 font-minecraft">NPC MERCENARIES</h3>
-              <p className="text-gray-300 mb-4">
-                Recruit, train, and command NPC soldiers with unique abilities and specializations. Build armies that
-                fight alongside you.
-              </p>
-              <ul className="text-gray-400 text-sm space-y-1">
-                <li>• Multiple unit types</li>
-                <li>• Training and leveling system</li>
-                <li>• Formation tactics</li>
-                <li>• Specialized combat roles</li>
-              </ul>
-            </div>
-
-            <div className="bg-gray-900/30 border border-gray-800 rounded-lg p-6 hover:border-red-500/30 transition-all">
-              <div className="bg-red-900/20 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
-                <Map className="h-8 w-8 text-red-500" />
-              </div>
-              <h3 className="text-xl font-bold mb-3 font-minecraft">SUPPLY LOGISTICS</h3>
-              <p className="text-gray-300 mb-4">
-                Manage supply lines, secure resources, and maintain your army. Cut off enemy supplies to weaken their
-                forces.
-              </p>
-              <ul className="text-gray-400 text-sm space-y-1">
-                <li>• Resource management</li>
-                <li>• Supply route protection</li>
-                <li>• Sabotage mechanics</li>
-                <li>• Starvation and attrition</li>
-              </ul>
-            </div>
-          </div>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="bg-gray-900/30 border border-gray-800 rounded-lg p-6 hover:border-red-500/30 transition-all">
+        <div className="bg-red-900/20 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+          <Swords className="h-8 w-8 text-red-500" />
         </div>
-      </section>
+        <h3 className="text-xl font-bold mb-3 font-minecraft">OPT-IN BATTLES</h3>
+        <p className="text-gray-300 mb-4">
+          PvP is never forced. Nation leaders must rally support before battles begin. Every fight is earned.
+        </p>
+        <ul className="text-gray-400 text-sm space-y-1">
+          <li>• Scheduled engagements</li>
+          <li>• Compass-guided battlefields</li>
+          <li>• No teleporting, no cheating</li>
+        </ul>
+      </div>
+
+      <div className="bg-gray-900/30 border border-gray-800 rounded-lg p-6 hover:border-red-500/30 transition-all">
+        <div className="bg-red-900/20 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+          <Map className="h-8 w-8 text-red-500" />
+        </div>
+        <h3 className="text-xl font-bold mb-3 font-minecraft">REAL TERRAIN</h3>
+        <p className="text-gray-300 mb-4">
+          Battles happen in randomly chosen Overworld locations. No curated arenas — only survival and adaptation.
+        </p>
+        <ul className="text-gray-400 text-sm space-y-1">
+          <li>• Plains, forests, oceans, mountains</li>
+          <li>• Defenders pick the day & time</li>
+          <li>• Every battle affects the war score</li>
+        </ul>
+      </div>
+
+      <div className="bg-gray-900/30 border border-gray-800 rounded-lg p-6 hover:border-red-500/30 transition-all">
+        <div className="bg-red-900/20 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+          <Shield className="h-8 w-8 text-red-500" />
+        </div>
+        <h3 className="text-xl font-bold mb-3 font-minecraft">VASSALS & CONSEQUENCES</h3>
+        <p className="text-gray-300 mb-4">
+          Smaller nations can swear fealty for protection. War has meaning — surrender is possible, rebellion is earned.
+        </p>
+        <ul className="text-gray-400 text-sm space-y-1">
+          <li>• Tribute systems</li>
+          <li>• Vassal protections</li>
+          <li>• Rebellions change history</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* War Stories */}
       <section className="py-16 bg-gradient-to-b from-black to-red-900/20">
