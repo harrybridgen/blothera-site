@@ -152,7 +152,7 @@ export default function Home() {
                     </h2>
                     <p className="text-gray-300 mb-2">
                       Blothera features a completely custom-built nations system that encourages cooperation, diplomacy, and
-                      organized conflict — never random violence or griefing.
+                      organized conflict, never random violence or griefing.
                     </p>
                     <p className="text-sm italic text-gray-500 mb-6">
                       Power is built, not given. And every law is written in ink.
@@ -189,7 +189,7 @@ export default function Home() {
                         <div>
                           <h3 className="font-bold text-white">VILLAGER PROTECTION</h3>
                           <p className="text-gray-400">
-                            Villagers are treated as players, not resources. No trading halls or breeder farms — only real
+                            Villagers are treated as players, not resources. No trading halls or breeder farms, only real
                             settlements.
                           </p>
                         </div>
