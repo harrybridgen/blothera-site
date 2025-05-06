@@ -54,7 +54,7 @@ export default function RulesPage() {
                     <li className="flex items-start">
                       <span className="text-red-500 mr-2">•</span>
                       <span>
-                        <strong>No PvP unless both parties agree.</strong> Combat between players must be consensual.
+                        <strong>No PvP unless both parties agree.</strong> PvP is limited to declared combatants.
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -161,6 +161,12 @@ export default function RulesPage() {
                     <li className="flex items-start">
                       <span className="text-red-500 mr-2">•</span>
                       <span>
+                        <strong>Verification code:</strong> blothera111
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">•</span>
+                      <span>
                         <strong>Semi-automatic farms are allowed.</strong> These require some player interaction.
                       </span>
                     </li>
@@ -226,21 +232,13 @@ export default function RulesPage() {
                     <li className="flex items-start">
                       <span className="text-red-500 mr-2">•</span>
                       <span>
-                        <strong>We have a plugin that stops any other client from connecting.</strong> (TO BE
-                        IMPLEMENTED)
+                        <strong>We stop any other client from connecting.</strong> It is necessary for this experience to work.
                       </span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-red-500 mr-2">•</span>
                       <span>
-                        <strong>This is rare, but it is necessary for this experience to work.</strong> Don't like it?
-                        There are thousands of other servers. This one is different.
-                      </span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-red-500 mr-2">•</span>
-                      <span>
-                        <strong>Verification code:</strong> blothera111
+                        <strong>Don't like it? You want to use Optifine?</strong> There are thousands of other servers. This one is different.
                       </span>
                     </li>
                   </ul>

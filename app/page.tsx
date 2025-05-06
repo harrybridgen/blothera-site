@@ -69,11 +69,11 @@ export default function Home() {
     <div className="max-w-3xl mx-auto text-center">
       <h2 className="text-3xl md:text-4xl font-bold mb-2">THE BLOODMOON RISES</h2>
       <p className="text-center text-gray-500 mb-8 italic">And the world is watching.</p>
-      <div className="prose prose-invert max-w-none">
+      <div className="text-center max-w-xl mx-auto">
         <p className="text-gray-300 text-lg mb-4">
           When night falls and the Bloodmoon rises, you have a choice:
         </p>
-        <ul className="text-gray-300 text-lg space-y-2 list-disc pl-6 mb-6 text-left">
+        <ul className="text-gray-300 text-lg space-y-2 list-disc list-inside mb-6 inline-block text-left">
           <li>Face the horde head-on and claim your glory</li>
           <li>Fortify your base and pray it holds till dawn</li>
           <li>Flee and live to fight another day</li>
@@ -133,131 +133,141 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Nations & Community Section */}
       <section className="py-16 bg-black relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/village.png')] bg-cover bg-center opacity-10"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black"></div>
-        <div className="container relative z-10 mx-auto px-4">
-          <div className="flex flex-col lg:flex-row gap-8 items-center">
-            <div className="lg:w-1/2">
-              <div className="bg-black/60 backdrop-blur-sm border border-red-900/30 rounded-lg p-6">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4 font-minecraft text-red-500">
-                  NATIONS & CONSEQUENCE
-                </h2>
-                <p className="text-gray-300 mb-2">
-                  Blothera features a completely custom-built nations system that encourages cooperation, diplomacy, and
-                  organized conflict — never random violence or griefing.
-                </p>
-                <p className="text-sm italic text-gray-500 mb-6">
-                  Power is built, not given. And every law is written in ink.
-                </p>
 
-                {/* Nation Features */}
-                <div className="space-y-4 mb-6">
-                  <div className="flex items-start gap-3">
-                    <div className="mt-1 bg-red-900/30 p-1 rounded">
-                      <Shield className="h-5 w-5 text-red-500" />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-white">FORM YOUR NATION</h3>
-                      <p className="text-gray-400">
-                        Create a nation, design your banner, and establish your territory. Set your own laws and
-                        governance style.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <div className="mt-1 bg-red-900/30 p-1 rounded">
-                      <Users className="h-5 w-5 text-red-500" />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-white">CONSENSUAL WARFARE</h3>
-                      <p className="text-gray-400">
-                        Wars are formal, agreed-upon conflicts between nations. No random PvP or griefing is ever
-                        allowed.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <div className="mt-1 bg-red-900/30 p-1 rounded">
-                      <Heart className="h-5 w-5 text-red-500" />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-white">VILLAGER PROTECTION</h3>
-                      <p className="text-gray-400">
-                        Villagers are treated as players, not resources. No trading halls or breeder farms — only real
-                        settlements.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <div className="mt-1 bg-red-900/30 p-1 rounded">
-                      <Mountain className="h-5 w-5 text-red-500" />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-white">RESPECTFUL FARMING</h3>
-                      <p className="text-gray-400">
-                        Semi-automatic farms are allowed. Fully automatic systems are not. The land should feel lived
-                        in.
-                      </p>
+        <div className="container relative z-10 mx-auto px-4">
+          <div className="flex flex-col lg:flex-row gap-8 items-stretch">
+            
+            {/* Nations & Consequence Box */}
+            <div className="lg:w-1/2 h-full flex flex-col justify-between lg:min-h-[700px]">
+
+            <div className="flex-1 bg-black/60 backdrop-blur-sm border border-red-900/30 rounded-lg p-6 flex flex-col">
+
+                <div className="flex-1 flex flex-col justify-between">
+                  <div>
+                    <h2 className="text-3xl md:text-4xl font-bold mb-4 font-minecraft text-red-500">
+                      NATIONS & CONSEQUENCE
+                    </h2>
+                    <p className="text-gray-300 mb-2">
+                      Blothera features a completely custom-built nations system that encourages cooperation, diplomacy, and
+                      organized conflict — never random violence or griefing.
+                    </p>
+                    <p className="text-sm italic text-gray-500 mb-6">
+                      Power is built, not given. And every law is written in ink.
+                    </p>
+
+                    <div className="space-y-4 mb-6">
+                      <div className="flex items-start gap-3">
+                        <div className="mt-1 bg-red-900/30 p-1 rounded">
+                          <Shield className="h-5 w-5 text-red-500" />
+                        </div>
+                        <div>
+                          <h3 className="font-bold text-white">FORM YOUR NATION</h3>
+                          <p className="text-gray-400">
+                            Create a nation, design your banner, and establish your territory. Set your own laws and
+                            governance style.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex items-start gap-3">
+                        <div className="mt-1 bg-red-900/30 p-1 rounded">
+                          <Users className="h-5 w-5 text-red-500" />
+                        </div>
+                        <div>
+                          <h3 className="font-bold text-white">CONSENSUAL WARFARE</h3>
+                          <p className="text-gray-400">
+                            Wars are formal, agreed-upon conflicts between nations. No random PvP or griefing is ever allowed.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex items-start gap-3">
+                        <div className="mt-1 bg-red-900/30 p-1 rounded">
+                          <Heart className="h-5 w-5 text-red-500" />
+                        </div>
+                        <div>
+                          <h3 className="font-bold text-white">VILLAGER PROTECTION</h3>
+                          <p className="text-gray-400">
+                            Villagers are treated as players, not resources. No trading halls or breeder farms — only real
+                            settlements.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex items-start gap-3">
+                        <div className="mt-1 bg-red-900/30 p-1 rounded">
+                          <Mountain className="h-5 w-5 text-red-500" />
+                        </div>
+                        <div>
+                          <h3 className="font-bold text-white">RESPECTFUL FARMING</h3>
+                          <p className="text-gray-400">
+                            Semi-automatic farms are allowed. Fully automatic systems are not. The land should feel lived in.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-
-                <div className="border-t border-gray-700 pt-4 mt-4">
+                <div className="pt-6 mt-6 border-t border-gray-700 text-center min-h-[56px] flex items-center justify-center">
                   <p className="text-white font-minecraft">COOPERATION WITH CONSEQUENCES</p>
                 </div>
               </div>
             </div>
 
-            {/* Rules Card */}
-            <div className="lg:w-1/2">
-              <div className="bg-black/60 backdrop-blur-sm border border-gray-800 rounded-lg p-6">
-                <div className="mb-4 flex justify-between items-center">
-                  <h3 className="font-minecraft text-xl">SERVER RULES</h3>
-                  <span className="text-xs text-gray-500">CORE PRINCIPLES</span>
-                </div>
+            {/* Server Rules Box */}
+            <div className="lg:w-1/2 h-full flex flex-col justify-between lg:min-h-[700px]">
+            <div className="flex-1 bg-black/60 backdrop-blur-sm border border-gray-800 rounded-lg p-6 flex flex-col">
 
-                <div className="space-y-4">
-                  <div className="border-b border-gray-800 pb-3">
-                    <h4 className="font-bold text-red-500 mb-2">⚔️ Core Conduct</h4>
-                    <ul className="text-gray-300 text-sm space-y-1">
-                      <li>• No griefing or stealing</li>
-                      <li>• No PvP unless both parties agree</li>
-                      <li>• No exploiting mechanics or systems</li>
-                      <li>• No hacks, x-ray, or unfair advantages</li>
-                      <li>• No hate speech or harassment</li>
-                    </ul>
-                  </div>
-                  <div className="border-b border-gray-800 pb-3">
-                    <h4 className="font-bold text-red-500 mb-2">🌾 Villager Conduct</h4>
-                    <p className="text-gray-300 text-sm italic mb-2">"Villagers are Players"</p>
-                    <ul className="text-gray-300 text-sm space-y-1">
-                      <li>• No breeder farms or trading halls</li>
-                      <li>• Villages are communities, not assets</li>
-                      <li>• You may improve and defend natural villages</li>
-                    </ul>
-                  </div>
+                <div className="flex-1 flex flex-col justify-between">
                   <div>
-                    <h4 className="font-bold text-red-500 mb-2">🌟 Farming Conduct</h4>
-                    <ul className="text-gray-300 text-sm space-y-1">
-                      <li>• No fully automatic farms</li>
-                      <li>• Semi-automatic farms requiring player input are okay</li>
-                      <li>• Treat the world with care and purpose</li>
-                    </ul>
+                    <div className="mb-4 flex justify-between items-center">
+                      <h3 className="font-minecraft text-xl">SERVER RULES</h3>
+                      <span className="text-xs text-gray-500">CORE PRINCIPLES</span>
+                    </div>
+
+                    <div className="space-y-4">
+                      <div className="border-b border-gray-800 pb-3">
+                        <h4 className="font-bold text-red-500 mb-2">⚔️ Core Conduct</h4>
+                        <ul className="text-gray-300 text-sm space-y-1">
+                          <li>• No griefing or stealing</li>
+                          <li>• No PvP outside of war or mutual consent</li>
+                          <li>• No exploiting mechanics or systems</li>
+                          <li>• No hacks, x-ray, or unfair advantages</li>
+                          <li>• No hate speech or harassment</li>
+                        </ul>
+                      </div>
+                      <div className="border-b border-gray-800 pb-3">
+                        <h4 className="font-bold text-red-500 mb-2">🌾 Villager Conduct</h4>
+                        <p className="text-gray-300 text-sm italic mb-2">"Villagers are Players"</p>
+                        <ul className="text-gray-300 text-sm space-y-1">
+                          <li>• No breeder farms or trading halls</li>
+                          <li>• Villages are communities, not assets</li>
+                          <li>• You may improve and defend natural villages</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-red-500 mb-2">🌟 Farming Conduct</h4>
+                        <ul className="text-gray-300 text-sm space-y-1">
+                          <li>• No fully automatic farms</li>
+                          <li>• Semi-automatic farms requiring player input are okay</li>
+                          <li>• Treat the world with care and purpose</li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
-
-                <div className="mt-6 pt-4 border-t border-gray-700 text-center">
+                <div className="pt-6 mt-6 border-t border-gray-700 text-center min-h-[56px] flex items-center justify-center">
                   <Button variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft">
                     VIEW FULL RULES
                   </Button>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </section>
+
 
       {/* Philosophy Section */}
       <section className="py-16 bg-black">
@@ -268,13 +278,13 @@ export default function Home() {
               <br />
               ABOUT PURPOSE.
             </h2>
-            <div className="bg-gray-900/50 border border-red-900/30 rounded-lg p-8">
+            <div className="bg-gray-900/50 border border-red-900/30 rounded-lg p-8 text-center max-w-3xl mx-auto">
               <p className="text-gray-300 text-lg mb-6">
                 Modern servers are dopamine factories. Lootboxes. Starter kits. Skip buttons. Nothing matters because
                 nothing is earned.
               </p>
               <p className="text-gray-300 text-lg mb-6">
-                <span className="text-red-500 font-semibold">Blothera is different.</span> You struggle. You adapt. You
+                <span className="text-red-500 font-semibold">Blothera is different.</span><br /> You struggle. You adapt. You
                 leave your name behind.
               </p>
               <p className="text-gray-300 text-lg mb-6">
@@ -283,7 +293,7 @@ export default function Home() {
               <p className="text-xl text-center font-bold text-red-500">
                 MOST WILL NOT SURVIVE.
                 <br />
-                WILL YOU?
+                MOST WONT EVEN UNDERSTAND IT.
               </p>
             </div>
           </div>
@@ -293,12 +303,8 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-b from-black to-red-900/30">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">READY TO PROVE YOURSELF?</h2>
-          <p className="text-xl text-gray-300 mb-6 max-w-xl mx-auto">
-            We don't run ads. We don't sell gear. We don't chase player counts.
-            <br />
-            We just built a world that matters.
-          </p>
+        <h2 className="text-3xl md:text-4xl font-bold mb-2">READY TO PROVE YOURSELF?</h2>
+        <p className="text-lg text-red-500 italic mb-6 tracking-wide">TO LEAD?..</p>
           <div className="bg-black/50 border border-red-900/30 rounded-lg p-6 max-w-md mx-auto mb-8">
             <p className="text-gray-400 mb-4 font-mono">SERVER IP:</p>
             <p className="text-xl text-white font-mono bg-gray-800/50 p-2 rounded mb-4">play.blothera.com</p>
