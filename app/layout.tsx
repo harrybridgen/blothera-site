@@ -10,7 +10,6 @@ export const metadata = {
   },
 }
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -19,13 +18,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-
-      <link rel="icon" type="image/png" href="/icon.png" />
-      <link rel="apple-touch-icon" href="/icon.png" />
-      <meta name="theme-color" content="#000000" />
-
+        <link rel="icon" type="image/png" href="/icon.png" />
+        <link rel="apple-touch-icon" href="/icon.png" />
+        <meta name="theme-color" content="#000000" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <MusicToggle />
+      </body>
     </html>
   )
 }
