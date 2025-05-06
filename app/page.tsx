@@ -129,7 +129,7 @@ export default function Home() {
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 font-minecraft text-red-500">NATIONS & COMMUNITY</h2>
                 <p className="text-gray-300 mb-6">
                   Blothera features a completely custom-built nations system that encourages cooperation, diplomacy, and
-                  organized conflict - never random violence or griefing.
+                  organized conflict, never random violence or griefing.
                 </p>
 
                 <div className="space-y-4 mb-6">
@@ -166,7 +166,7 @@ export default function Home() {
                     <div>
                       <h3 className="font-bold text-white">VILLAGER PROTECTION</h3>
                       <p className="text-gray-400">
-                        Villagers are treated as players, not resources. No trading halls or breeding farms - only real
+                        Villagers are treated as players, not resources. No trading halls or breeding farms, only real
                         settlements.
                       </p>
                     </div>
@@ -267,7 +267,7 @@ export default function Home() {
               </p>
               <p className="text-gray-300 text-lg mb-6">
                 We don't babysit. We don't hold hands. We give you the tools and trust you to use them. This isn't a
-                theme park - it's a world that fights back and remembers what you do.
+                theme park, it's a world that fights back and remembers what you do.
               </p>
               <p className="text-xl text-center font-bold text-red-500">
                 MOST WILL NOT SURVIVE.

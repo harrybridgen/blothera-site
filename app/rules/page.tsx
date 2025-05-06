@@ -117,7 +117,7 @@ export default function RulesPage() {
                       <span className="text-red-500 mr-2">•</span>
                       <span>
                         <strong>
-                          You may build new villages - but they must feel like real settlements, not factories.
+                          You may build new villages, but they must feel like real settlements, not factories.
                         </strong>{" "}
                         Create authentic communities.
                       </span>
