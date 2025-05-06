@@ -11,75 +11,90 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col bg-black text-white">
       <Header />
-
-      {/* Hero Section */}
-      <section className="relative py-20 md:py-32 overflow-hidden">
-        <div className="absolute inset-0 z-0 bg-gradient-to-b from-red-900/20 to-black/80">
-          <div className="absolute inset-0 bg-[url('/images/bloodmoon.png')] bg-cover bg-center opacity-30 mix-blend-overlay"></div>
+          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjMDAwIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDVMNSAwWk02IDRMNCA2Wk0tMSAxTDEgLTFaIiBzdHJva2U9IiMyMjIiIG9wYWNpdHk9IjAuMDUiPjwvcGF0aD4KPC9zdmc+')] opacity-10">
         </div>
-        <div className="container relative z-10 mx-auto px-4 text-center">
-          <h1 className="mb-6 text-center">
-            <Image
-              src="/images/blothera-logo.png"
-              alt="BLOTHERA"
-              width={700}
-              height={200}
-              className="mx-auto"
-              priority
-            />
-            <span className="block text-red-500 text-2xl md:text-3xl mt-4 font-minecraft">SURVIVAL MUST BE EARNED</span>
-          </h1>
-          <p className="mx-auto mb-8 max-w-2xl text-lg md:text-xl text-gray-300">
-            No cash shop. No kits. No pay to win. No shortcuts.
-            <br />A living world where your actions have meaning and survival is never guaranteed.
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white font-minecraft">
-              JOIN THE WORLD
-              <ChevronRight className="ml-2 h-4 w-4" />
-            </Button>
-<Button
-  asChild
-  size="lg"
-  variant="outline"
-  className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft"
->
-  <a href="https://discord.blothera.com" target="_blank" rel="noopener noreferrer">
-    DISCORD
-  </a>
-</Button>
 
-          </div>
-        </div>
-      </section>
+{/* HERO SECTION */}
+<section className="relative py-20 md:py-32 overflow-hidden">
+  {/* Hero Background */}
+  <div className="absolute inset-0 z-0 bg-gradient-to-b from-[#440000] via-[#1a0000] to-black">
+    <div className="absolute inset-0 bg-[url('/images/bloodmoon.png')] bg-cover bg-center opacity-30 mix-blend-overlay"></div>
+    <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjMDAwIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDVMNSAwWk02IDRMNCA2Wk0tMSAxTDEgLTFaIiBzdHJva2U9IiMyMjIiIG9wYWNpdHk9IjAuMDUiPjwvcGF0aD4KPC9zdmc+')] opacity-10"></div>
+  </div>
 
-      {/* Intro Section */}
-      <section className="py-16 bg-gradient-to-b from-black to-gray-900">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">THE BLOODMOON RISES</h2>
-            <div className="prose prose-invert max-w-none">
-              <p className="text-gray-300 text-lg mb-4">When night falls and the Bloodmoon rises, you have a choice:</p>
-              <ul className="text-gray-300 text-lg space-y-2 list-disc pl-6 mb-6">
-                <li>Face the horde head-on and claim your glory</li>
-                <li>Fortify your base and pray it holds till dawn</li>
-                <li>Flee and live to fight another day</li>
-              </ul>
-              <p className="text-gray-300 text-lg mb-4">
-                Death costs you Max Hearts. Progress is slow. Every resource matters.
-              </p>
-            </div>
-            <p className="text-xl text-red-500 font-semibold text-center mt-6">
-              This isn't just another server. This is survival as it was meant to be.
-            </p>
-          </div>
-        </div>
-      </section>
+  {/* Hero Content */}
+  <div className="container relative z-10 mx-auto px-4 text-center">
+    <h1 className="mb-6 text-center">
+      <Image
+        src="/images/blothera-logo.png"
+        alt="BLOTHERA"
+        width={700}
+        height={200}
+        className="mx-auto"
+        priority
+      />
+      <span className="block text-red-500 text-2xl md:text-3xl mt-4 font-minecraft">
+        SURVIVAL MUST BE EARNED
+      </span>
+      <span className="block text-gray-400 italic text-sm mt-2">
+        The land remembers what you build… and what you leave behind.
+      </span>
+    </h1>
+    <p className="mx-auto mb-8 max-w-2xl text-lg md:text-xl text-gray-300">
+      No cash shop. No kits. No pay to win. No shortcuts.
+      <br />A living world where your actions have meaning and survival is never guaranteed.
+    </p>
+    <div className="flex flex-col sm:flex-row justify-center gap-4">
+      <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white font-minecraft">
+        JOIN THE WORLD
+        <ChevronRight className="ml-2 h-4 w-4" />
+      </Button>
+      <Button
+        size="lg"
+        variant="outline"
+        className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft"
+        onClick={() => window.open("https://discord.gg/blothera", "_blank")}
+      >
+        DISCORD
+      </Button>
+    </div>
+  </div>
+</section>
+
+{/* INTRO SECTION */}
+<section className="relative py-16 bg-black overflow-hidden">
+  {/* Optional: keep bloodmoon image if desired */}
+  <div className="absolute inset-0 bg-[url('/images/bloodmoon.png')] bg-cover bg-center opacity-10 mix-blend-overlay pointer-events-none"></div>
+  <div className="container relative z-10 mx-auto px-4">
+    <div className="max-w-3xl mx-auto text-center">
+      <h2 className="text-3xl md:text-4xl font-bold mb-2">THE BLOODMOON RISES</h2>
+      <p className="text-center text-gray-500 mb-8 italic">And the world is watching.</p>
+      <div className="prose prose-invert max-w-none">
+        <p className="text-gray-300 text-lg mb-4">
+          When night falls and the Bloodmoon rises, you have a choice:
+        </p>
+        <ul className="text-gray-300 text-lg space-y-2 list-disc pl-6 mb-6 text-left">
+          <li>Face the horde head-on and claim your glory</li>
+          <li>Fortify your base and pray it holds till dawn</li>
+          <li>Flee and live to fight another day</li>
+        </ul>
+        <p className="text-gray-300 text-lg mb-4">
+          Every death lingers. Every block earned. Every moon… a warning.
+        </p>
+      </div>
+      <p className="text-xl text-red-500 font-semibold text-center mt-6 mb-16">
+        This isn't just another server. This is survival as it was meant to be.
+      </p>
+    </div>
+  </div>
+</section>
+
 
       {/* Features Section */}
-      <section className="py-16 bg-gray-900 border-y border-gray-800">
+      <section className="py-16 bg-gray-900 border-t border-gray-800">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">MINECRAFT WITH MEANING</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">MINECRAFT WITH MEANING</h2>
+          <p className="text-center italic text-sm text-gray-500 mb-6">No resets. No kits. No throwaway builds.</p>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
             Remember when Minecraft was challenging? When every decision mattered? We do.
           </p>
@@ -126,12 +141,18 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row gap-8 items-center">
             <div className="lg:w-1/2">
               <div className="bg-black/60 backdrop-blur-sm border border-red-900/30 rounded-lg p-6">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4 font-minecraft text-red-500">NATIONS & COMMUNITY</h2>
-                <p className="text-gray-300 mb-6">
+                <h2 className="text-3xl md:text-4xl font-bold mb-4 font-minecraft text-red-500">
+                  NATIONS & CONSEQUENCE
+                </h2>
+                <p className="text-gray-300 mb-2">
                   Blothera features a completely custom-built nations system that encourages cooperation, diplomacy, and
-                  organized conflict, never random violence or griefing.
+                  organized conflict — never random violence or griefing.
+                </p>
+                <p className="text-sm italic text-gray-500 mb-6">
+                  Power is built, not given. And every law is written in ink.
                 </p>
 
+                {/* Nation Features */}
                 <div className="space-y-4 mb-6">
                   <div className="flex items-start gap-3">
                     <div className="mt-1 bg-red-900/30 p-1 rounded">
@@ -145,7 +166,6 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-
                   <div className="flex items-start gap-3">
                     <div className="mt-1 bg-red-900/30 p-1 rounded">
                       <Users className="h-5 w-5 text-red-500" />
@@ -158,7 +178,6 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-
                   <div className="flex items-start gap-3">
                     <div className="mt-1 bg-red-900/30 p-1 rounded">
                       <Heart className="h-5 w-5 text-red-500" />
@@ -166,12 +185,11 @@ export default function Home() {
                     <div>
                       <h3 className="font-bold text-white">VILLAGER PROTECTION</h3>
                       <p className="text-gray-400">
-                        Villagers are treated as players, not resources. No trading halls or breeding farms, only real
+                        Villagers are treated as players, not resources. No trading halls or breeder farms — only real
                         settlements.
                       </p>
                     </div>
                   </div>
-
                   <div className="flex items-start gap-3">
                     <div className="mt-1 bg-red-900/30 p-1 rounded">
                       <Mountain className="h-5 w-5 text-red-500" />
@@ -179,8 +197,8 @@ export default function Home() {
                     <div>
                       <h3 className="font-bold text-white">RESPECTFUL FARMING</h3>
                       <p className="text-gray-400">
-                        Semi-automatic farms are allowed, but fully automatic farms are not. Player interaction is
-                        always required.
+                        Semi-automatic farms are allowed. Fully automatic systems are not. The land should feel lived
+                        in.
                       </p>
                     </div>
                   </div>
@@ -192,6 +210,7 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Rules Card */}
             <div className="lg:w-1/2">
               <div className="bg-black/60 backdrop-blur-sm border border-gray-800 rounded-lg p-6">
                 <div className="mb-4 flex justify-between items-center">
@@ -210,36 +229,29 @@ export default function Home() {
                       <li>• No hate speech or harassment</li>
                     </ul>
                   </div>
-
                   <div className="border-b border-gray-800 pb-3">
                     <h4 className="font-bold text-red-500 mb-2">🌾 Villager Conduct</h4>
                     <p className="text-gray-300 text-sm italic mb-2">"Villagers are Players"</p>
                     <ul className="text-gray-300 text-sm space-y-1">
-                      <li>• No villager breeder farms or trading halls</li>
-                      <li>• Villages are living communities, not resources</li>
+                      <li>• No breeder farms or trading halls</li>
+                      <li>• Villages are communities, not assets</li>
                       <li>• You may improve and defend natural villages</li>
                     </ul>
                   </div>
-
                   <div>
                     <h4 className="font-bold text-red-500 mb-2">🌟 Farming Conduct</h4>
                     <ul className="text-gray-300 text-sm space-y-1">
                       <li>• No fully automatic farms</li>
-                      <li>• Semi-automatic farms requiring player interaction are allowed</li>
-                      <li>• Treat the world with respect</li>
+                      <li>• Semi-automatic farms requiring player input are okay</li>
+                      <li>• Treat the world with care and purpose</li>
                     </ul>
                   </div>
                 </div>
 
                 <div className="mt-6 pt-4 border-t border-gray-700 text-center">
-					<Button
-					  variant="outline"
-					  className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft"
-					  onClick={() => window.location.href = "/rules"}
-					>
-					  VIEW FULL RULES
-					</Button>
-
+                  <Button variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft">
+                    VIEW FULL RULES
+                  </Button>
                 </div>
               </div>
             </div>
@@ -258,16 +270,15 @@ export default function Home() {
             </h2>
             <div className="bg-gray-900/50 border border-red-900/30 rounded-lg p-8">
               <p className="text-gray-300 text-lg mb-6">
-                Modern servers are dopamine factories. Lootboxes. Starter packs. Fast-track bullshit. Nothing matters
-                because everything is handed to you.
+                Modern servers are dopamine factories. Lootboxes. Starter kits. Skip buttons. Nothing matters because
+                nothing is earned.
               </p>
               <p className="text-gray-300 text-lg mb-6">
-                <span className="text-red-500 font-semibold">Blothera is different.</span> Your actions have weight.
-                Your name means something. Your legacy endures.
+                <span className="text-red-500 font-semibold">Blothera is different.</span> You struggle. You adapt. You
+                leave your name behind.
               </p>
               <p className="text-gray-300 text-lg mb-6">
-                We don't babysit. We don't hold hands. We give you the tools and trust you to use them. This isn't a
-                theme park, it's a world that fights back and remembers what you do.
+                There are no shortcuts. We give you the tools. You write the legend.
               </p>
               <p className="text-xl text-center font-bold text-red-500">
                 MOST WILL NOT SURVIVE.
@@ -283,10 +294,15 @@ export default function Home() {
       <section className="py-16 bg-gradient-to-b from-black to-red-900/30">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">READY TO PROVE YOURSELF?</h2>
+          <p className="text-xl text-gray-300 mb-6 max-w-xl mx-auto">
+            We don't run ads. We don't sell gear. We don't chase player counts.
+            <br />
+            We just built a world that matters.
+          </p>
           <div className="bg-black/50 border border-red-900/30 rounded-lg p-6 max-w-md mx-auto mb-8">
             <p className="text-gray-400 mb-4 font-mono">SERVER IP:</p>
             <p className="text-xl text-white font-mono bg-gray-800/50 p-2 rounded mb-4">play.blothera.com</p>
-            <p className="text-gray-400 text-sm">Java Edition 1.21.5</p>
+            <p className="text-gray-400 text-sm">Java Edition 1.20.4</p>
           </div>
           <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white font-minecraft">
             JOIN THE SERVER
