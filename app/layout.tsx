@@ -25,6 +25,7 @@ export default function RootLayout({
       <body>
         {children}
         <MusicToggle />
+        <link rel="canonical" href="https://www.blothera.com/" />
       </body>
     </html>
   )
