@@ -13,7 +13,7 @@ export default function Footer() {
             </p>
             <div className="mt-4 flex space-x-4">
               <a
-                href="//discord.blothera.com"
+                href="https://discord.gg/v7YtC2cKVd"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-red-400"
@@ -54,7 +54,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="//discord.blothera.com"
+                  href="https://discord.gg/v7YtC2cKVd"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-red-400 text-sm"
