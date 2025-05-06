@@ -33,167 +33,159 @@ export default function NationsPage() {
       </section>
 
       {/* Nations System Overview */}
-<section className="py-16 bg-gradient-to-b from-black to-gray-900">
-  <div className="container mx-auto px-4">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-      <div>
-        <h2 className="text-3xl font-bold mb-6 font-minecraft text-red-500">FORGE A NATION</h2>
-        <p className="text-gray-300 mb-6">
-          In Blothera, nations are not claimed, they are born. Forged through legacy, ritual, and resolve, each nation carries the weight of real effort and real meaning.
-        </p>
+<h2 className="text-3xl font-bold mb-6 font-minecraft text-red-500">FORGE A NATION</h2>
+<p className="text-gray-300 mb-6">
+  Nations in Blothera are not created through commands or claims. They are summoned. Only those who rise through survival may carve their name into the world.
+</p>
 
-        <div className="space-y-6">
-          <div className="flex items-start gap-4">
-            <div className="mt-1 bg-red-900/30 p-2 rounded-full">
-              <Flag className="h-5 w-5 text-red-500" />
-            </div>
-            <div>
-              <h3 className="font-bold text-white text-lg">Earned Authority</h3>
-              <p className="text-gray-400">
-                Leadership must be claimed, not typed. Only those who rise through challenge can found a nation.
-              </p>
-            </div>
-          </div>
-
-          <div className="flex items-start gap-4">
-            <div className="mt-1 bg-red-900/30 p-2 rounded-full">
-              <Building className="h-5 w-5 text-red-500" />
-            </div>
-            <div>
-              <h3 className="font-bold text-white text-lg">Tangible Expansion</h3>
-              <p className="text-gray-400">
-                Villages, roads, alliances, your nation expands by action, not admin. Everything is built, everything is earned.
-              </p>
-            </div>
-          </div>
-
-          <div className="flex items-start gap-4">
-            <div className="mt-1 bg-red-900/30 p-2 rounded-full">
-              <Users className="h-5 w-5 text-red-500" />
-            </div>
-            <div>
-              <h3 className="font-bold text-white text-lg">Diplomacy That Matters</h3>
-              <p className="text-gray-400">
-                Alliances, vassals, betrayals, Blothera remembers every choice. Politics isn’t a menu. It’s a legacy.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-6 text-center">
-        <h3 className="text-xl font-bold mb-4 font-minecraft">EVERY NAME IS CARVED IN STONE</h3>
-        <p className="text-gray-400 text-sm">
-          Blothera remembers every nation that rises, and every one that falls. The world itself is your record.
-        </p>
-        <div className="mt-6">
-          <Button variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20">
-            View Nation Archives
-          </Button>
-        </div>
-      </div>
+<div className="space-y-6">
+  <div className="flex items-start gap-4">
+    <div className="mt-1 bg-red-900/30 p-2 rounded-full">
+      <Flag className="h-5 w-5 text-red-500" />
+    </div>
+    <div>
+      <h3 className="font-bold text-white text-lg">Legacy, Not Permission</h3>
+      <p className="text-gray-400">
+        There are no shortcuts. No /nation create. To lead a nation, you must prove something real. The crown is not given. It is taken, from the heart of the End.
+      </p>
     </div>
   </div>
-</section>
+
+  <div className="flex items-start gap-4">
+    <div className="mt-1 bg-red-900/30 p-2 rounded-full">
+      <Building className="h-5 w-5 text-red-500" />
+    </div>
+    <div>
+      <h3 className="font-bold text-white text-lg">The World Is Your Record</h3>
+      <p className="text-gray-400">
+        Build roads. Found towns. Write treaties in ink and trust. Nothing is automated. Everything is seen. The world remembers what you build, and what you abandon.
+      </p>
+    </div>
+  </div>
+
+  <div className="flex items-start gap-4">
+    <div className="mt-1 bg-red-900/30 p-2 rounded-full">
+      <Users className="h-5 w-5 text-red-500" />
+    </div>
+    <div>
+	<h3 className="font-bold text-white text-lg">Diplomacy with Teeth</h3>
+		<p className="text-gray-400">
+		Alliances are written, not clicked or typed. Vassals kneel in person. Every pact is placed, read, and remembered. Nothing is truely hidden. Every choice leaves a trace in the world.
+	</p>
+
+    </div>
+  </div>
+</div>
+
 
 
 
       {/* Warfare System */}
-<section className="py-16 bg-black">
-  <div className="container mx-auto px-4">
-    <h2 className="text-3xl font-bold mb-8 text-center font-minecraft text-red-500">STRUCTURED WARFARE</h2>
-    <p className="text-gray-300 text-center max-w-3xl mx-auto mb-12">
-      War in Blothera is not chaos. It’s earned, scheduled, and orchestrated by those who lead. Every decision carries weight. Every battle has consequence.
-    </p>
+<h2 className="text-3xl font-bold mb-8 text-center font-minecraft text-red-500">STRUCTURED WARFARE</h2>
+<p className="text-gray-300 text-center max-w-3xl mx-auto mb-12">
+  War in Blothera is not chaos. It is a ritual. A reckoning. Battles are not surprise ambushes — they are announced, prepared for, and fought in the open. Every engagement echoes through the land.
+</p>
 
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div className="bg-gray-900/30 border border-gray-800 rounded-lg p-6 hover:border-red-500/30 transition-all">
-        <div className="bg-red-900/20 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
-          <Swords className="h-8 w-8 text-red-500" />
-        </div>
-        <h3 className="text-xl font-bold mb-3 font-minecraft">OPT-IN CONFLICT</h3>
-        <p className="text-gray-300 mb-4">
-          No ambushes. No grief raids. Every war must be declared, every fight must be agreed upon, and announced.
-        </p>
-        <ul className="text-gray-400 text-sm space-y-1">
-          <li>• Public war declarations</li>
-          <li>• Structured battle windows</li>
-          <li>• Consent-based combat</li>
-        </ul>
-      </div>
-
-      <div className="bg-gray-900/30 border border-gray-800 rounded-lg p-6 hover:border-red-500/30 transition-all">
-        <div className="bg-red-900/20 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
-          <Map className="h-8 w-8 text-red-500" />
-        </div>
-        <h3 className="text-xl font-bold mb-3 font-minecraft">THE LAND IS THE ARENA</h3>
-        <p className="text-gray-300 mb-4">
-          Battles take place across real terrain, not prebuilt maps. Forests, plains, and oceans become your battlefield.
-        </p>
-        <ul className="text-gray-400 text-sm space-y-1">
-          <li>• Dynamic battlegrounds</li>
-          <li>• Defender picks location</li>
-          <li>• No teleportation, no shortcuts</li>
-        </ul>
-      </div>
-
-      <div className="bg-gray-900/30 border border-gray-800 rounded-lg p-6 hover:border-red-500/30 transition-all">
-        <div className="bg-red-900/20 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
-          <Shield className="h-8 w-8 text-red-500" />
-        </div>
-        <h3 className="text-xl font-bold mb-3 font-minecraft">CONSEQUENCES THAT STICK</h3>
-        <p className="text-gray-300 mb-4">
-          Losing a war doesn't just mean losing a fight. It can reshape alliances, change territories, or fracture your nation entirely.
-        </p>
-        <ul className="text-gray-400 text-sm space-y-1">
-          <li>• Tribute & surrender options</li>
-          <li>• Real diplomatic fallout</li>
-          <li>• History is written by participation</li>
-        </ul>
-      </div>
+<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+  <div className="bg-gray-900/30 border border-gray-800 rounded-lg p-6 hover:border-red-500/30 transition-all">
+    <div className="bg-red-900/20 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+      <Swords className="h-8 w-8 text-red-500" />
     </div>
+    <h3 className="text-xl font-bold mb-3 font-minecraft">CONSENT TO BLEED</h3>
+    <p className="text-gray-300 mb-4">
+      No backstabs. No random raids. Every war must be declared, every objective named, every sword lifted with purpose.
+    </p>
+    <ul className="text-gray-400 text-sm space-y-1">
+      <li>• Written casus belli</li>
+      <li>• Scheduled battle dates</li>
+      <li>• PvP is always opt-in</li>
+    </ul>
   </div>
-</section>
+
+  <div className="bg-gray-900/30 border border-gray-800 rounded-lg p-6 hover:border-red-500/30 transition-all">
+    <div className="bg-red-900/20 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+      <Map className="h-8 w-8 text-red-500" />
+    </div>
+    <h3 className="text-xl font-bold mb-3 font-minecraft">THE WORLD IS YOUR WARFIELD</h3>
+    <p className="text-gray-300 mb-4">
+      Battles don’t happen on arenas. They happen in forests, mountains, and rivers, wherever the world chooses. You’ll need maps, mounts, and real logistics.
+    </p>
+    <ul className="text-gray-400 text-sm space-y-1">
+      <li>• Terrain is random, untamed</li>
+      <li>• No teleports, no summons</li>
+      <li>• Movement is half the battle</li>
+    </ul>
+  </div>
+
+  <div className="bg-gray-900/30 border border-gray-800 rounded-lg p-6 hover:border-red-500/30 transition-all">
+    <div className="bg-red-900/20 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
+      <Shield className="h-8 w-8 text-red-500" />
+    </div>
+    <h3 className="text-xl font-bold mb-3 font-minecraft">TO BREAK A WALL, YOU MUST BUILD</h3>
+    <p className="text-gray-300 mb-4">
+      Some battles are fought at the gates of real towns. For those, tools exist, heavy, slow, and loud. Only the bold will use them. Only the prepared will survive them.
+    </p>
+    <ul className="text-gray-400 text-sm space-y-1">
+      <li>• Sieges can happen</li>
+      <li>• Real structures can fall</li>
+      <li>• The cost is always greater than the gain</li>
+    </ul>
+  </div>
+</div>
+
 
 
 
       {/* War Stories */}
-<section className="py-16 bg-gradient-to-b from-black to-red-900/20">
-  <div className="container mx-auto px-4">
-    <h2 className="text-3xl font-bold mb-8 text-center">WAR STORIES</h2>
-    <div className="max-w-4xl mx-auto bg-black/60 border border-gray-800 rounded-lg p-6">
-      <div className="space-y-6">
-        <div className="border-b border-gray-800 pb-6">
-          <h3 className="text-xl font-bold mb-2">The Fall of Westhold</h3>
-          <p className="text-gray-400 mb-4">
-            "They came at dawn on the third day. The Crimson Empire had siege crews dragging iron barrels on wheels, firing blasts that cracked stone like thunder. 
-            We held the walls for as long as we could, but when the eastern gate gave way, it was over. Fires broke out across the inner keep. Most of us fled into the mines. "
-          </p>
-          <p className="text-sm text-gray-500">— Survivor of Westhold</p>
-        </div>
+<h2 className="text-3xl font-bold mb-8 text-center font-minecraft text-red-500">WAR STORIES</h2>
+<div className="max-w-4xl mx-auto bg-black/60 border border-gray-800 rounded-lg p-6">
+  <div className="space-y-6">
 
-<div className="border-b border-gray-800 pb-6">
-  <h3 className="text-xl font-bold mb-2">The Battle of Red Valley</h3>
-  <p className="text-gray-400 mb-4">
-    "Scouts spotted their supply train early, mules packed with bread, arrows, and iron shells. 
-    We collapsed the bridge at Red River and buried charges near the ford. 
-    They never reached our gates. By week's end, their ranks were scattered, no food, no firepower, no resolve."
-  </p>
-  <p className="text-sm text-gray-500">— Leader of the Northern Alliance</p>
+    <div className="border-b border-gray-800 pb-6">
+      <h3 className="text-xl font-bold mb-2">“I was just planting carrots…”</h3>
+      <p className="text-gray-400 mb-4">
+        Emberfall was never meant to be important. Just a small town behind tall walls. I was farming. The siege came anyway.
+        I remember someone in chat saying “don’t engage if you’re unarmed.” Then the ground started shaking.
+        Fire arced past the barn. Soldiers I didn’t know fought monsters I didn’t summon. 
+        I hid in the root cellar with a stew and prayed the roof held. It did. 
+        The next morning, someone came back and replanted my field.
+      </p>
+      <p className="text-sm text-gray-500">— Soil Keeper of Emberfall</p>
+    </div>
+
+    <div className="border-b border-gray-800 pb-6">
+      <h3 className="text-xl font-bold mb-2">“The bridge never broke. We did.”</h3>
+      <p className="text-gray-400 mb-4">
+        Red Valley wasn’t supposed to be a war. A missed tribute. We mined under the ford and packed it with lava. But they didn’t come that way.
+        They came through the treeline. On foot. Silent. By the time we saw their flags, they were already inside.
+        I dropped my sword and played dead beside a sheep. It worked.
+      </p>
+      <p className="text-sm text-gray-500">— Disgraced Sentry of Red Valley</p>
+    </div>
+
+    <div className="border-b border-gray-800 pb-6">
+      <h3 className="text-xl font-bold mb-2">“We signed with ink. They answered with fire.”</h3>
+      <p className="text-gray-400 mb-4">
+        The Unionists had promised to defend us. They even sent a letter. Sealed and everything. But when the sky turned red, no one came.
+        We held for ten minutes before they breached the west gate. My brother fell in the orchard. 
+        I left the nation the next day. Signed my own name in a different book.
+      </p>
+      <p className="text-sm text-gray-500">— Former Citizen of Oakwatch</p>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-bold mb-2">“We brought no weapons. Just a flag.”</h3>
+      <p className="text-gray-400 mb-4">
+        The Desert Alliance wasn’t formed in battle. It happened at a well. Four nations. No trust. No guards.
+        We passed around some loaves of bread and talked about trade routes. 
+        By the time the Bloodmoon rose, we’d built something worth defending.
+      </p>
+      <p className="text-sm text-gray-500">— Elder of the Nomads</p>
+    </div>
+
+  </div>
 </div>
 
-
-        <div>
-          <h3 className="text-xl font-bold mb-2">The Desert Alliance</h3>
-			<p className="text-gray-400 mb-4">
-				"We were surrounded on every side. But the Forest Keepers came. They didn’t ask for promises, just a place to stand. Together, we carved paths through dust and root, and built something stronger than walls: trust."
-			</p>
-			<p className="text-sm text-gray-500">— Elder of the Nomads</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 
       {/* CTA Section */}
