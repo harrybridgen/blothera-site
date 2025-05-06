@@ -42,7 +42,6 @@ export default function Home() {
     </span>
   </h1>
   <p className="mx-auto mb-8 max-w-2xl text-lg md:text-xl text-gray-300">
-    No cash shop. No kits. No pay to win. No shortcuts.
     <br />A living world where your actions have meaning and survival is never guaranteed.
   </p>
   <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -122,7 +121,7 @@ export default function Home() {
             <FeatureCard
               icon={<Shield className="h-10 w-10 text-red-500" />}
               title="NO HANDOUTS"
-              description="No cash shops. No starter kits. No pay-to-win garbage. Just pure survival."
+              description="No cash shops. No starter kits. No pay to win. Just pure survival."
             />
             <FeatureCard
               icon={<Mountain className="h-10 w-10 text-red-500" />}
