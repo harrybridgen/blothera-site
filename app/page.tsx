@@ -1,6 +1,7 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 import { ChevronRight, Shield, Skull, Flame, Mountain, Users, Heart } from "lucide-react"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
@@ -49,14 +50,15 @@ export default function Home() {
         JOIN THE WORLD
         <ChevronRight className="ml-2 h-4 w-4" />
       </Button>
-      <Button
-        size="lg"
-        variant="outline"
-        className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft"
-        onClick={() => window.open("https://discord.gg/blothera", "_blank")}
-      >
-        DISCORD
-      </Button>
+      <Link href="https://discord.blothera.com" passHref>
+  <Button
+    size="lg"
+    variant="outline"
+    className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft"
+  >
+    DISCORD
+  </Button>
+</Link>
     </div>
   </div>
 </section>

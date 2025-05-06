@@ -41,7 +41,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="https://discord.gg/blothera" className="text-gray-400 hover:text-red-400 text-sm">
+                <Link href="https://discord.blothera.com" className="text-gray-400 hover:text-red-400 text-sm">
                   Discord
                 </Link>
               </li>
