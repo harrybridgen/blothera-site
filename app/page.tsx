@@ -23,45 +23,53 @@ export default function Home() {
     <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjMDAwIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDVMNSAwWk02IDRMNCA2Wk0tMSAxTDEgLTFaIiBzdHJva2U9IiMyMjIiIG9wYWNpdHk9IjAuMDUiPjwvcGF0aD4KPC9zdmc+')] opacity-10"></div>
   </div>
 
-  {/* Hero Content */}
-  <div className="container relative z-10 mx-auto px-4 text-center">
-    <h1 className="mb-6 text-center">
-      <Image
-        src="/images/blothera-logo.png"
-        alt="BLOTHERA"
-        width={700}
-        height={200}
-        className="mx-auto"
-        priority
-      />
-      <span className="block text-red-500 text-2xl md:text-3xl mt-4 font-minecraft">
-        SURVIVAL MUST BE EARNED
-      </span>
-      <span className="block text-gray-400 italic text-sm mt-2">
-        The land remembers what you build… and what you leave behind.
-      </span>
-    </h1>
-    <p className="mx-auto mb-8 max-w-2xl text-lg md:text-xl text-gray-300">
-      No cash shop. No kits. No pay to win. No shortcuts.
-      <br />A living world where your actions have meaning and survival is never guaranteed.
-    </p>
-    <div className="flex flex-col sm:flex-row justify-center gap-4">
-      <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white font-minecraft">
-        JOIN THE WORLD
-        <ChevronRight className="ml-2 h-4 w-4" />
+{/* Hero Content */}
+<div className="container relative z-10 mx-auto px-4 text-center">
+  <h1 className="mb-6 text-center">
+    <Image
+      src="/images/blothera-logo.png"
+      alt="BLOTHERA"
+      width={700}
+      height={200}
+      className="mx-auto"
+      priority
+    />
+    <span className="block text-red-500 text-2xl md:text-3xl mt-4 font-minecraft">
+      SURVIVAL MUST BE EARNED
+    </span>
+    <span className="block text-gray-400 italic text-sm mt-2">
+      The land remembers what you build… and what you leave behind.
+    </span>
+  </h1>
+  <p className="mx-auto mb-8 max-w-2xl text-lg md:text-xl text-gray-300">
+    No cash shop. No kits. No pay to win. No shortcuts.
+    <br />A living world where your actions have meaning and survival is never guaranteed.
+  </p>
+  <div className="flex flex-col sm:flex-row justify-center gap-4">
+    <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white font-minecraft">
+      JOIN THE WORLD
+      <ChevronRight className="ml-2 h-4 w-4" />
+    </Button>
+    <a
+      href="https://discord.blothera.com"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Button
+        size="lg"
+        variant="outline"
+        className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft"
+      >
+        DISCORD
       </Button>
-      <Link href="https://discord.blothera.com" passHref>
-  <Button
-    size="lg"
-    variant="outline"
-    className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft"
-  >
-    DISCORD
-  </Button>
-</Link>
-    </div>
+    </a>
   </div>
+</div>
 </section>
+
+{/* Optional: Music Toggle */}
+{/* <MusicToggle /> */}
+
 
 {/* INTRO SECTION */}
 <section className="relative py-16 bg-black overflow-hidden">
