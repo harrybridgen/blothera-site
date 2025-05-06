@@ -13,7 +13,7 @@ export default function Footer() {
             </p>
             <div className="mt-4 flex space-x-4">
               <a
-                href="https://discord.blothera.com"
+                href="//discord.blothera.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-red-400"
@@ -23,8 +23,9 @@ export default function Footer() {
                   <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515..." />
                 </svg>
               </a>
+
               <a
-                href="https://twitter.com/YOUR_HANDLE"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-red-400"
@@ -53,7 +54,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://discord.blothera.com"
+                  href="//discord.blothera.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-red-400 text-sm"
@@ -63,7 +64,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> 
 
         {/* Footer Bottom */}
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
@@ -74,7 +75,7 @@ export default function Footer() {
             Minecraft is a trademark of Mojang AB and is not affiliated with this site.
           </p>
         </div>
-      </div>
+      </div> 
     </footer>
   )
 }

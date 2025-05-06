@@ -51,9 +51,9 @@ export default function Home() {
       <ChevronRight className="ml-2 h-4 w-4" />
     </Button>
     <a
-      href="https://discord.blothera.com"
-      target="_blank"
-      rel="noopener noreferrer"
+  href="//discord.blothera.com"
+  target="_blank"
+  rel="noopener noreferrer"
     >
       <Button
         size="lg"
