@@ -32,12 +32,19 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
-          <Link href="/nations" className="text-sm font-medium text-gray-300 hover:text-red-400">
-            NATIONS
-          </Link>
-          <Link href="/rules" className="text-sm font-medium text-gray-300 hover:text-red-400">
-            RULES
-          </Link>
+        <Link href="/nations" className="text-sm font-medium text-gray-300 hover:text-red-400">
+          NATIONS
+        </Link>
+        <Link href="/rules" className="text-sm font-medium text-gray-300 hover:text-red-400">
+          RULES
+        </Link>
+        <Link href="/history" className="text-sm font-medium text-gray-300 hover:text-red-400">
+          HISTORY
+        </Link>
+        <Button className="bg-red-600 hover:bg-red-700 text-white font-minecraft">
+          JOIN NOW
+        </Button>
+
           <Button className="bg-red-600 hover:bg-red-700 text-white font-minecraft">JOIN NOW</Button>
         </nav>
 
@@ -65,12 +72,21 @@ export default function Header() {
             >
               RULES
             </Link>
+            <Link
+  href="/history"
+  className="text-sm font-medium text-gray-300 hover:text-red-400"
+  onClick={() => setIsMenuOpen(false)}
+>
+  HISTORY
+</Link>
+
             <Button
               className="bg-red-600 hover:bg-red-700 text-white w-full font-minecraft"
               onClick={() => setIsMenuOpen(false)}
             >
               JOIN NOW
             </Button>
+            
 
           </div>
         </div>
