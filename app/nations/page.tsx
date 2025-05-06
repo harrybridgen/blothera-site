@@ -39,7 +39,7 @@ export default function NationsPage() {
       <div>
         <h2 className="text-3xl font-bold mb-6 font-minecraft text-red-500">FORGE A NATION</h2>
         <p className="text-gray-300 mb-6">
-          In Blothera, nations are not claimed — they are born. Forged through legacy, ritual, and resolve, each nation carries the weight of real effort and real meaning.
+          In Blothera, nations are not claimed, they are born. Forged through legacy, ritual, and resolve, each nation carries the weight of real effort and real meaning.
         </p>
 
         <div className="space-y-6">
@@ -62,7 +62,7 @@ export default function NationsPage() {
             <div>
               <h3 className="font-bold text-white text-lg">Tangible Expansion</h3>
               <p className="text-gray-400">
-                Villages, roads, alliances — your nation expands by action, not admin. Everything is built, everything is earned.
+                Villages, roads, alliances, your nation expands by action, not admin. Everything is built, everything is earned.
               </p>
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function NationsPage() {
             <div>
               <h3 className="font-bold text-white text-lg">Diplomacy That Matters</h3>
               <p className="text-gray-400">
-                Alliances, vassals, betrayals — Blothera remembers every choice. Politics isn’t a menu. It’s a legacy.
+                Alliances, vassals, betrayals, Blothera remembers every choice. Politics isn’t a menu. It’s a legacy.
               </p>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function NationsPage() {
       <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-6 text-center">
         <h3 className="text-xl font-bold mb-4 font-minecraft">EVERY NAME IS CARVED IN STONE</h3>
         <p className="text-gray-400 text-sm">
-          Blothera remembers every nation that rises — and every one that falls. The world itself is your record.
+          Blothera remembers every nation that rises, and every one that falls. The world itself is your record.
         </p>
         <div className="mt-6">
           <Button variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20">
@@ -113,7 +113,7 @@ export default function NationsPage() {
         </div>
         <h3 className="text-xl font-bold mb-3 font-minecraft">OPT-IN CONFLICT</h3>
         <p className="text-gray-300 mb-4">
-          No ambushes. No grief raids. Every war must be declared, every fight must be agreed upon — and announced.
+          No ambushes. No grief raids. Every war must be declared, every fight must be agreed upon, and announced.
         </p>
         <ul className="text-gray-400 text-sm space-y-1">
           <li>• Public war declarations</li>
@@ -128,7 +128,7 @@ export default function NationsPage() {
         </div>
         <h3 className="text-xl font-bold mb-3 font-minecraft">THE LAND IS THE ARENA</h3>
         <p className="text-gray-300 mb-4">
-          Battles take place across real terrain — not prebuilt maps. Forests, plains, and oceans become your battlefield.
+          Battles take place across real terrain, not prebuilt maps. Forests, plains, and oceans become your battlefield.
         </p>
         <ul className="text-gray-400 text-sm space-y-1">
           <li>• Dynamic battlegrounds</li>
@@ -175,9 +175,9 @@ export default function NationsPage() {
 <div className="border-b border-gray-800 pb-6">
   <h3 className="text-xl font-bold mb-2">The Battle of Red Valley</h3>
   <p className="text-gray-400 mb-4">
-    "Scouts spotted their supply train early — mules packed with bread, arrows, and iron shells. 
+    "Scouts spotted their supply train early, mules packed with bread, arrows, and iron shells. 
     We collapsed the bridge at Red River and buried charges near the ford. 
-    They never reached our gates. By week's end, their ranks were scattered — no food, no firepower, no resolve."
+    They never reached our gates. By week's end, their ranks were scattered, no food, no firepower, no resolve."
   </p>
   <p className="text-sm text-gray-500">— Leader of the Northern Alliance</p>
 </div>
