@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import Image from "next/image"
 
+
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -70,6 +71,7 @@ export default function Header() {
             >
               JOIN NOW
             </Button>
+
           </div>
         </div>
       )}

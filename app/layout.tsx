@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import MusicToggle from "@/components/music-toggle"
 
 export const metadata = {
   title: "Blothera",
@@ -17,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>{children}<MusicToggle /></body>
     </html>
   )
 }
