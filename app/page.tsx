@@ -218,7 +218,11 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="pt-6 mt-6 border-t border-gray-700 text-center min-h-[56px] flex items-center justify-center">
-                  <p className="text-white font-minecraft">COOPERATION WITH CONSEQUENCES</p>
+                <Link href="/nations">
+                  <Button variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft">
+                  VIEW THE NATIONS SYSTEM
+                  </Button>
+                </Link>
                 </div>
               </div>
             </div>
@@ -266,9 +270,11 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="pt-6 mt-6 border-t border-gray-700 text-center min-h-[56px] flex items-center justify-center">
-                  <Button variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft">
-                    VIEW FULL RULES
-                  </Button>
+                  <Link href="/rules">
+                    <Button variant="outline" className="border-red-600 text-red-500 hover:bg-red-900/20 font-minecraft">
+                      VIEW FULL RULES
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -96,7 +96,7 @@ export default function NationsPage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center font-minecraft text-red-500">STRUCTURED WARFARE</h2>
           <p className="text-gray-300 text-center max-w-3xl mx-auto mb-12">
-            War in Blothera is not chaos. It is a ritual. A reckoning. Battles are not surprise ambushes — they are
+            War in Blothera is not chaos. It is a ritual. A reckoning. Battles are not surprise ambushes. They are
             announced, prepared for, and fought in the open. Every engagement echoes through the land.
           </p>
 
@@ -163,7 +163,7 @@ export default function NationsPage() {
                 <p className="text-gray-400 mb-4">
                   Emberfall was never meant to be important. Just a small town behind tall walls. I was farming. The
                   siege came anyway. I remember someone in chat saying "don't engage if you're unarmed." Then the ground
-                  started shaking. Fire arced past the barn. Soldiers I didn't know fought monsters I didn't summon. I
+                  started shaking. Fire arced past the barn. Soldiers I didn't know fought monsters with unusual abilities. I
                   hid in the root cellar with a stew and prayed the roof held. It did. The next morning, someone came
                   back and replanted my field.
                 </p>

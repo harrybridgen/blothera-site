@@ -75,7 +75,7 @@ export default function Footer() {
             Minecraft is a trademark of Mojang AB and is not affiliated with this site.
           </p>
           <p className="text-gray-500 text-xs mt-2">
-            Music: "Epic Hollywood Trailer" by MOKKA via <a href="https://pixabay.com/music/main-title-epic-hollywood-trailer-9489/" target="_blank" rel="noopener noreferrer" className="underline hover:text-red-400">Pixabay</a>
+            Music: "Epic Hollywood Trailer" by Good_B_Music via <a href="https://pixabay.com/music/main-title-epic-hollywood-trailer-9489/" target="_blank" rel="noopener noreferrer" className="underline hover:text-red-400">Pixabay</a>
           </p>
 
         </div>
