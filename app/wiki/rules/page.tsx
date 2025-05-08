@@ -2,6 +2,8 @@ import { Shield, Users, Flame, Mountain, Heart } from 'lucide-react'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import Link from 'next/link'
+import { Button } from '@/components/ui/button'
+import { ChevronLeft } from 'lucide-react'
 
 export default function RulesWikiPage() {
   return (
@@ -20,6 +22,17 @@ export default function RulesWikiPage() {
           </Link>
           <span className="mx-2">/</span>
           <span className="text-gray-300">Rules</span>
+        </div>
+        <div className="mb-4 flex items-center justify-between">
+          <Link href="/wiki">
+            <Button
+              variant="outline"
+              className="text-red-500 border-red-600 hover:bg-red-900/20 flex items-center"
+            >
+              <ChevronLeft className="mr-2 h-4 w-4" />
+              Back to Wiki
+            </Button>
+          </Link>
         </div>
 
         {/* Main Content Only (Centered) */}

@@ -4,6 +4,7 @@ import Header from '@/components/header'
 import Footer from '@/components/footer'
 import Image from 'next/image'
 import Link from 'next/link'
+import WikiSearch from '@/components/WikiSearch'
 
 export default function WikiPage() {
   return (
@@ -11,7 +12,7 @@ export default function WikiPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
+      <section className="relative pt-20 pb-5 overflow-hidden">
         <div className="absolute inset-0 z-0 bg-gradient-to-b from-red-900/20 to-black/80">
           <div className="absolute inset-0 bg-[url('/images/bloodmoon.png')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
         </div>
@@ -25,34 +26,19 @@ export default function WikiPage() {
               className="mx-auto mb-7"
               priority
             />
-            <h1 className="text-4xl font-minecraft">WIKI (!UNDER CONSTRUCTION!)</h1>
+            <h1 className="text-4xl font-minecraft">
+              WIKI
+              <br /> (UNDER CONSTRUCTION)
+            </h1>
           </div>
           <p className="mx-auto mb-8 max-w-2xl text-lg md:text-xl text-gray-300 text-center">
             Your guide to surviving and thriving in the harsh world of Blothera. Knowledge is power.
           </p>
-
-          {/* Search Bar */}
-          <div className="max-w-xl mx-auto mb-8">
-            <div className="relative">
-              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                <Search className="h-5 w-5 text-gray-400" />
-              </div>
-              <input
-                type="search"
-                className="block w-full p-4 pl-10 text-sm bg-gray-900/80 border border-gray-700 rounded-lg focus:ring-red-500 focus:border-red-500"
-                placeholder="Search the wiki..."
-              />
-              <button
-                type="submit"
-                className="absolute right-2.5 bottom-2.5 bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-800 font-medium rounded-lg text-sm px-4 py-2"
-              >
-                Search
-              </button>
-            </div>
-          </div>
         </div>
       </section>
-
+      <section className="relative pt-0 pb-20 overflow-visible">
+        <WikiSearch />
+      </section>
       {/* Wiki Categories */}
       <section className="py-16 bg-gradient-to-b from-black to-gray-900">
         <div className="container mx-auto px-4">
