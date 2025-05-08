@@ -21,7 +21,7 @@ export default function Header() {
                 alt="BLOTHERA"
                 width={160}
                 height={50}
-                className="h-14 w-auto relative z-10 brightness-150 drop-shadow-[0_0_2px_rgba(255,30,30,0.3)]"
+                className="h-14 w-auto relative z-50 brightness-150 drop-shadow-[0_0_2px_rgba(255,30,30,0.3)]"
                 priority
               />
             </div>

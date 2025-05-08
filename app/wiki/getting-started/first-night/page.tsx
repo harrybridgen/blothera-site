@@ -1,9 +1,11 @@
-import { Button } from "@/components/ui/button"
-import { ChevronLeft, ChevronRight, Home, Moon, BedDouble, Flame, Compass } from "lucide-react"
+import { Button } from '@/components/ui/button'
+import { Anchor } from '@/components/anchor'
 
-import Header from "@/components/header"
-import Footer from "@/components/footer"
-import Link from "next/link"
+import { ChevronLeft, ChevronRight, Home, Moon, BedDouble, Flame, Compass } from 'lucide-react'
+
+import Header from '@/components/header'
+import Footer from '@/components/footer'
+import Link from 'next/link'
 
 export default function FirstNightSurvivalPage() {
   return (
@@ -33,30 +35,47 @@ export default function FirstNightSurvivalPage() {
           {/* Sidebar Navigation */}
           <div className="lg:col-span-1">
             <div className="bg-gray-900/30 border border-gray-800 rounded-lg p-4 sticky top-20">
-              <h3 className="font-minecraft text-lg mb-4 pb-2 border-b border-gray-800">GETTING STARTED</h3>
+              <h3 className="font-minecraft text-lg mb-4 pb-2 border-b border-gray-800">
+                GETTING STARTED
+              </h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/wiki/getting-started" className="text-gray-300 hover:text-red-400 block py-1">
+                  <Link
+                    href="/wiki/getting-started"
+                    className="text-gray-300 hover:text-red-400 block py-1"
+                  >
                     Overview
                   </Link>
                 </li>
                 <li>
-                  <Link href="/wiki/getting-started/first-night" className="text-red-500 font-bold block py-1">
+                  <Link
+                    href="/wiki/getting-started/first-night"
+                    className="text-red-500 font-bold block py-1"
+                  >
                     First Night Survival
                   </Link>
                 </li>
                 <li>
-                  <Link href="/wiki/getting-started/health-system" className="text-gray-300 hover:text-red-400 block py-1">
+                  <Link
+                    href="/wiki/getting-started/health-system"
+                    className="text-gray-300 hover:text-red-400 block py-1"
+                  >
                     Health System
                   </Link>
                 </li>
                 <li>
-                  <Link href="/wiki/getting-started/resources" className="text-gray-300 hover:text-red-400 block py-1">
+                  <Link
+                    href="/wiki/getting-started/resources"
+                    className="text-gray-300 hover:text-red-400 block py-1"
+                  >
                     Basic Resources
                   </Link>
                 </li>
                 <li>
-                  <Link href="/wiki/getting-started/shelter" className="text-gray-300 hover:text-red-400 block py-1">
+                  <Link
+                    href="/wiki/getting-started/shelter"
+                    className="text-gray-300 hover:text-red-400 block py-1"
+                  >
                     Building a Shelter
                   </Link>
                 </li>
@@ -67,17 +86,25 @@ export default function FirstNightSurvivalPage() {
           {/* Main Content */}
           <div className="lg:col-span-3">
             <article className="bg-gray-900/30 border border-gray-800 rounded-lg p-6">
-              <h1 className="text-3xl font-bold mb-2 font-minecraft text-red-500">FIRST NIGHT SURVIVAL</h1>
-              <p className="text-gray-400 italic mb-6">Surviving your first Bloodmoon and nightfall</p>
+              <h1 className="text-3xl font-bold mb-2 font-minecraft text-red-500">
+                FIRST NIGHT SURVIVAL
+              </h1>
+              <p className="text-gray-400 italic mb-6">
+                Surviving your first Bloodmoon and nightfall
+              </p>
 
               <div className="prose prose-invert max-w-none">
                 <p className="text-gray-300 mb-4">
-                  The first night in Blothera is brutal. You likely won’t have much gear, and danger is constant. Here's how to survive.
+                  The first night in Blothera is brutal. You likely won’t have much gear, and danger
+                  is constant. Here's how to survive.
                 </p>
 
-                <h2 className="text-2xl font-bold mt-8 mb-4 font-minecraft">LIGHT UP AND LOCK DOWN</h2>
+                <h2 className="text-2xl font-bold mt-8 mb-4 font-minecraft">
+                  LIGHT UP AND LOCK DOWN
+                </h2>
                 <p className="text-gray-300 mb-4">
-                  Your first goal is shelter and safety. Place torches around your area and seal any entrances. Light prevents mob spawns.
+                  Your first goal is shelter and safety. Place torches around your area and seal any
+                  entrances. Light prevents mob spawns.
                 </p>
 
                 <div className="my-6 bg-black/40 border border-red-900/30 rounded-lg p-4">
@@ -86,16 +113,15 @@ export default function FirstNightSurvivalPage() {
                     <div>
                       <h3 className="font-bold text-white">TIP: Carry Spare Torches</h3>
                       <p className="text-gray-400">
-                        Carry torches in your offhand. They emit light and placing them can help you explore without F3 coordinates.
+                        Carry torches in your offhand. They emit light and placing them can help you
+                        explore without F3 coordinates.
                       </p>
                     </div>
                   </div>
                 </div>
-
+                <Anchor id="beds-are-powerful" />
                 <h2 className="text-2xl font-bold mt-8 mb-4 font-minecraft">BEDS ARE POWERFUL</h2>
-                <p className="text-gray-300 mb-4">
-                  If you have a bed, use it. Sleeping:
-                </p>
+                <p className="text-gray-300 mb-4">If you have a bed, use it. Sleeping:</p>
                 <ul className="list-disc list-inside text-gray-300 space-y-1 mb-4">
                   <li>Skips the night (unless it's a Bloodmoon)</li>
                   <li>Heals 2 hearts</li>
@@ -113,11 +139,13 @@ export default function FirstNightSurvivalPage() {
                     </div>
                   </div>
                 </div>
-
-
-                <h2 className="text-2xl font-bold mt-8 mb-4 font-minecraft">USE THE NAVIGATION TOOLS</h2>
+                <Anchor id="use-the-navigation-tools" />
+                <h2 className="text-2xl font-bold mt-8 mb-4 font-minecraft">
+                  USE THE NAVIGATION TOOLS
+                </h2>
                 <p className="text-gray-300 mb-4">
-                  Navigating is a skill. Not handed to you. There is no F3 or dynmap. Use the given tools to navigate.
+                  Navigating is a skill. Not handed to you. There is no F3 or dynmap. Use the given
+                  tools to navigate.
                 </p>
                 <ul className="list-disc list-inside text-gray-300 space-y-1 mb-4">
                   <li>Compass (helps you find your bed or spawn)</li>
@@ -128,25 +156,31 @@ export default function FirstNightSurvivalPage() {
                 </ul>
                 <div className="my-6 bg-black/40 border border-gray-800 rounded-lg p-4">
                   <div className="flex items-start gap-3">
-                  <Compass className="h-5 w-5 text-red-500 mt-1 flex-shrink-0" />
+                    <Compass className="h-5 w-5 text-red-500 mt-1 flex-shrink-0" />
                     <div>
                       <h3 className="font-bold text-white">TIP: Using the Compass</h3>
                       <p className="text-gray-400">
-                       The compass points to your spawn point. If you want to find spawn, break your bed then use a compass. 
+                        The compass points to your spawn point. If you want to find spawn, break
+                        your bed then use a compass.
                       </p>
                     </div>
                   </div>
                 </div>
-
-
-                <h2 className="text-2xl font-bold mt-8 mb-4 font-minecraft">IF THE BLOODMOON RISES...</h2>
+                <Anchor id="if-the-bloodmoon-rises" />
+                <h2 className="text-2xl font-bold mt-8 mb-4 font-minecraft">
+                  IF THE BLOODMOON RISES...
+                </h2>
                 <p className="text-gray-300 mb-4">
-                  Bloodmoons can occur at random, roughly once every 12 nights. You can’t sleep through them, and mobs are more aggressive.
+                  Bloodmoons can occur at random, roughly once every 12 nights. You can’t sleep
+                  through them, and mobs are more aggressive.
                 </p>
                 <ul className="list-disc list-inside text-gray-300 space-y-1 mb-4">
                   <li>Stay inside if you’re not ready.</li>
                   <li>Make sure your walls are solid and doors are blocked.</li>
-                  <li>Don’t make noise. Blood monsters can hear you through walls. Sneak. Don't sprint.</li>
+                  <li>
+                    Don’t make noise. Blood monsters can hear you through walls. Sneak. Don't
+                    sprint.
+                  </li>
                   <li>If you're truly scared, you can log out. It is not against the rules.</li>
                 </ul>
 
@@ -156,14 +190,16 @@ export default function FirstNightSurvivalPage() {
                     <div>
                       <h3 className="font-bold text-white">PRO TIP: Listen for Ambient Cues</h3>
                       <p className="text-gray-400">
-                        Bloodmoons distort ambient sounds and tint the screen. If the night feels wrong, it probably is.
+                        Bloodmoons distort ambient sounds and tint the screen. If the night feels
+                        wrong, it probably is.
                       </p>
                     </div>
                   </div>
                 </div>
 
                 <p className="text-gray-300 mt-6">
-                  Once you survive the first night, you’ve proven you can adapt. Prepare for deeper caves, riskier mobs, and tougher choices ahead.
+                  Once you survive the first night, you’ve proven you can adapt. Prepare for deeper
+                  caves, riskier mobs, and tougher choices ahead.
                 </p>
               </div>
 
