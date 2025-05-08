@@ -25,7 +25,7 @@ export default function WikiPage() {
               className="mx-auto mb-7"
               priority
             />
-            <h1 className="text-4xl font-minecraft">WIKI</h1>
+            <h1 className="text-4xl font-minecraft">WIKI (!UNDER CONSTRUCTION!)</h1>
           </div>
           <p className="mx-auto mb-8 max-w-2xl text-lg md:text-xl text-gray-300 text-center">
             Your guide to surviving and thriving in the harsh world of Blothera. Knowledge is power.
