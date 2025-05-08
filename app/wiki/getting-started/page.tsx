@@ -105,11 +105,13 @@ export default function GettingStartedPage() {
                   </div>
                 </div>
 
-                <h2 className="text-2xl font-bold mt-8 mb-4 font-minecraft">FIRST STEPS</h2>
+                <h2 className="text-2xl font-bold mt-8 mb-4 font-minecraft">QUESTS FIRST</h2>
 
                 <p className="text-gray-300 mb-4">
-                  When you first spawn in Blothera, you'll need to quickly gather resources and find shelter before
-                  nightfall. The first night is especially dangerous, as you'll be at your most vulnerable.
+                  When you first spawn in Blothera, you'll want to complete the starter quests in the spawn town.
+                  These quests will help you gather essential resources and understand the basics of the game. After
+                  completing the quests, you can choose to either stay in the spawn town or venture out into the wild.
+                
                 </p>
 
                 <h3 className="text-xl font-bold mt-6 mb-3">1. Gather Basic Resources</h3>
@@ -126,6 +128,9 @@ export default function GettingStartedPage() {
                       <li>Stone (for better tools)</li>
                       <li>Coal (for torches)</li>
                       <li>Food (kill animals or gather crops)</li>
+                      <li>Iron Nuggets (for early chainmail armour)</li>
+                      <li>Wool (for a bed and string)</li>
+                      <li>Basic food (bread, potatoes, etc)</li>
                     </ul>
                   </div>
                   <div className="bg-gray-800/50 p-4 rounded-lg">
@@ -135,6 +140,9 @@ export default function GettingStartedPage() {
                       <li>Stone Tools (pickaxe, axe, sword)</li>
                       <li>Torches</li>
                       <li>Furnace</li>
+                      <li>Bed (if you find wool)</li>
+                      <li>Bow and Arrows (if you find string)</li>
+                      <li>Chainmail Armor (if you find iron)</li>
                     </ul>
                   </div>
                 </div>
@@ -149,6 +157,10 @@ export default function GettingStartedPage() {
                 <p className="text-gray-300 mb-4">
                   Ensure your shelter is well-lit with torches to prevent monster spawns inside. Block all entrances at
                   night.
+                </p>
+                <p className="text-gray-300 mb-4">
+                  Beds are crucial for skipping the night and resetting your spawn point. If you find wool, craft a bed.
+                  Beds also heal you and have a chance to restore one Max HP.
                 </p>
 
                 <div className="my-8 bg-black/40 border border-gray-800 rounded-lg p-4">
