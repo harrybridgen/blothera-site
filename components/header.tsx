@@ -1,10 +1,10 @@
-"use client"
+'use client'
 
-import { useState } from "react"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Menu, X } from "lucide-react"
-import Image from "next/image"
+import { useState } from 'react'
+import Link from 'next/link'
+import { Button } from '@/components/ui/button'
+import { Menu, X } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -37,15 +37,30 @@ export default function Header() {
           <Link href="/wiki" className="text-sm font-medium text-gray-300 hover:text-red-400">
             WIKI
           </Link>
-          <Link href="/rules" className="text-sm font-medium text-gray-300 hover:text-red-400">
+          <Link href="/wiki/rules" className="text-sm font-medium text-gray-300 hover:text-red-400">
             RULES
           </Link>
-          <Button className="bg-red-600 hover:bg-red-700 text-white font-minecraft">JOIN NOW</Button>
+          <a
+            href="https://discord.com/invite/v7YtC2cKVd"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-red-600 hover:bg-red-700 text-white font-minecraft px-4 py-2 rounded text-sm"
+          >
+            JOIN NOW
+          </a>
         </nav>
 
         {/* Mobile Menu Button */}
-        <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
-          {isMenuOpen ? <X className="h-6 w-6 text-gray-300" /> : <Menu className="h-6 w-6 text-gray-300" />}
+        <button
+          className="md:hidden"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label="Toggle menu"
+        >
+          {isMenuOpen ? (
+            <X className="h-6 w-6 text-gray-300" />
+          ) : (
+            <Menu className="h-6 w-6 text-gray-300" />
+          )}
         </button>
       </div>
 
@@ -74,12 +89,14 @@ export default function Header() {
             >
               RULES
             </Link>
-            <Button
-              className="bg-red-600 hover:bg-red-700 text-white w-full font-minecraft"
-              onClick={() => setIsMenuOpen(false)}
+            <a
+              href="https://discord.com/invite/v7YtC2cKVd"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-red-600 hover:bg-red-700 text-white w-full text-center font-minecraft px-4 py-2 rounded"
             >
               JOIN NOW
-            </Button>
+            </a>
           </div>
         </div>
       )}
