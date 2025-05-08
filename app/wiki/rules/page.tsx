@@ -2,11 +2,13 @@ import { Shield, Users, Flame, Mountain, Heart } from 'lucide-react'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { ChevronLeft } from 'lucide-react'
 import { Home } from 'lucide-react'
 
 export default function RulesWikiPage() {
+  const router = useRouter()
   return (
     <div className="flex min-h-screen flex-col bg-black text-white">
       <Header />
@@ -26,15 +28,14 @@ export default function RulesWikiPage() {
           <span className="text-gray-300">Rules</span>
         </div>
         <div className="mb-4 flex items-center justify-between">
-          <Link href="/wiki">
-            <Button
-              variant="outline"
-              className="text-red-500 border-red-600 hover:bg-red-900/20 flex items-center"
-            >
-              <ChevronLeft className="mr-2 h-4 w-4" />
-              Back to Wiki
-            </Button>
-          </Link>
+          <Button
+            onClick={() => router.back()}
+            variant="outline"
+            className="text-red-500 border-red-600 hover:bg-red-900/20 flex items-center"
+          >
+            <ChevronLeft className="mr-2 h-4 w-4" />
+            Back
+          </Button>
         </div>
 
         {/* Main Content Only (Centered) */}
