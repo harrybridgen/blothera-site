@@ -1,11 +1,14 @@
+'use client'
+
 import { Shield, Users, Flame, Mountain, Heart } from 'lucide-react'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { Button } from '@/components/ui/button'
-import { ChevronLeft } from 'lucide-react'
 import { Home } from 'lucide-react'
+import { ChevronRight } from 'lucide-react'
+import { ChevronLeft } from 'lucide-react'
 
 export default function RulesWikiPage() {
   const router = useRouter()
@@ -17,17 +20,18 @@ export default function RulesWikiPage() {
         {/* Breadcrumb Navigation */}
         <div className="flex items-center text-sm text-gray-400 mb-8">
           <Link href="/" className="hover:text-red-400 flex items-center">
-            <span className="mr-2"></span> <Home className="h-4 w-4 mr-1" />
+            <Home className="h-4 w-4 mr-1" />
             Home
           </Link>
-          <span className="mx-2">/</span>
+          <ChevronRight className="h-4 w-4 mx-2" />
           <Link href="/wiki" className="hover:text-red-400">
             Wiki
           </Link>
-          <span className="mx-2">/</span>
+          <ChevronRight className="h-4 w-4 mx-2" />
           <span className="text-gray-300">Rules</span>
         </div>
-        <div className="mb-4 flex items-center justify-between">
+
+        <div className="sticky top-[4.5rem] z-40 inline-block ml-4">
           <Button
             onClick={() => router.back()}
             variant="outline"
