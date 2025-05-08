@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button'
-import { ChevronRight, Home, Shield, Skull } from 'lucide-react'
+import { ChevronRight, Home, Shield, Skull, HeartCrack } from 'lucide-react'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import Link from 'next/link'
@@ -128,7 +128,7 @@ export default function GettingStartedPage() {
 
                 <div className="my-8 bg-black/40 border border-red-900/30 rounded-lg p-4">
                   <div className="flex items-start gap-3">
-                    <Skull className="h-5 w-5 text-red-500 mt-1 flex-shrink-0" />
+                    <HeartCrack className="h-5 w-5 text-red-500 mt-1 flex-shrink-0" />
                     <div>
                       <h3 className="font-bold text-white">
                         IMPORTANT: YOU DO NOT REGERATE HEALTH
