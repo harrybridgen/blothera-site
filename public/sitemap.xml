@@ -2,11 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://blothera.com/</loc>
+    <lastmod>2025-05-08</lastmod>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://blothera.com/rules</loc>
+    <lastmod>2025-05-08</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://blothera.com/nations</loc>
+    <lastmod>2025-05-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blothera.com/wiki</loc>
+    <lastmod>2025-05-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blothera.com/wiki/getting-started</loc>
+    <lastmod>2025-05-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://blothera.com/wiki/bloodmoon</loc>
+    <lastmod>2025-05-08</lastmod>
+    <priority>0.7</priority>
   </url>
 </urlset>

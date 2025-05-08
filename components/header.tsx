@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import Image from "next/image"
 
-
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -35,6 +34,9 @@ export default function Header() {
           <Link href="/nations" className="text-sm font-medium text-gray-300 hover:text-red-400">
             NATIONS
           </Link>
+          <Link href="/wiki" className="text-sm font-medium text-gray-300 hover:text-red-400">
+            WIKI
+          </Link>
           <Link href="/rules" className="text-sm font-medium text-gray-300 hover:text-red-400">
             RULES
           </Link>
@@ -59,6 +61,13 @@ export default function Header() {
               NATIONS
             </Link>
             <Link
+              href="/wiki"
+              className="text-sm font-medium text-gray-300 hover:text-red-400"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              WIKI
+            </Link>
+            <Link
               href="/rules"
               className="text-sm font-medium text-gray-300 hover:text-red-400"
               onClick={() => setIsMenuOpen(false)}
@@ -71,7 +80,6 @@ export default function Header() {
             >
               JOIN NOW
             </Button>
-
           </div>
         </div>
       )}
