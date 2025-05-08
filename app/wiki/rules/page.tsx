@@ -4,6 +4,7 @@ import Footer from '@/components/footer'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ChevronLeft } from 'lucide-react'
+import { Home } from 'lucide-react'
 
 export default function RulesWikiPage() {
   return (
@@ -14,7 +15,8 @@ export default function RulesWikiPage() {
         {/* Breadcrumb Navigation */}
         <div className="flex items-center text-sm text-gray-400 mb-8">
           <Link href="/" className="hover:text-red-400 flex items-center">
-            <span className="mr-2">🏠</span> Home
+            <span className="mr-2"></span> <Home className="h-4 w-4 mr-1" />
+            Home
           </Link>
           <span className="mx-2">/</span>
           <Link href="/wiki" className="hover:text-red-400">
