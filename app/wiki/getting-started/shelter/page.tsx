@@ -142,7 +142,7 @@ export default function ShelterPage() {
                   <li>Reinforce with blocks (cobblestone, not wood)</li>
                   <li>Block air windows, Blood Skeletons WILL shoot through them</li>
                   <li>
-                    Place Soul Torches, these repel Blood monsters{' '}
+                    Place Soul Torches, these repel Blood Monsters{' '}
                     <span className="italic text-gray-400">(NOT YET IMPLEMENTED)</span>
                   </li>
                   <li>
