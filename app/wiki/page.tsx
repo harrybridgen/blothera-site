@@ -188,14 +188,15 @@ export default function WikiPage() {
               <div className="space-y-6">
                 <div className="border-b border-gray-800 pb-6">
                   <div className="flex justify-between items-center mb-2">
-                    <h3 className="text-xl font-bold">Bloodmoon Mechanics Updated</h3>
-                    <span className="text-xs text-gray-500">3 days ago</span>
+                    <h3 className="text-xl font-bold">Getting Started Updated</h3>
+                    <span className="text-xs text-gray-500">08/05/2025</span>
                   </div>
                   <p className="text-gray-400 mb-4">
-                    The Bloodmoon article has been updated with new information about special
-                    monster spawns and their abilities.
+                    The Getting Started article has been updated with new information to reflect the
+                    latest changes in the game. This includes new survival tips and strategies for
+                    first-night survival and newcomers.
                   </p>
-                  <Link href="/wiki/bloodmoon">
+                  <Link href="/wiki/getting-started">
                     <Button
                       variant="outline"
                       className="text-red-500 border-red-600 hover:bg-red-900/20"
@@ -207,33 +208,14 @@ export default function WikiPage() {
 
                 <div className="border-b border-gray-800 pb-6">
                   <div className="flex justify-between items-center mb-2">
-                    <h3 className="text-xl font-bold">New Nation Formation Guide</h3>
-                    <span className="text-xs text-gray-500">1 week ago</span>
+                    <h3 className="text-xl font-bold">Wiki Lauch</h3>
+                    <span className="text-xs text-gray-500">08/05/2025</span>
                   </div>
                   <p className="text-gray-400 mb-4">
                     A comprehensive guide on how to form a nation has been added, including the
                     quest to retrieve the Nation Crown from the End.
                   </p>
-                  <Link href="/wiki/nations-system/formation">
-                    <Button
-                      variant="outline"
-                      className="text-red-500 border-red-600 hover:bg-red-900/20"
-                    >
-                      Read More
-                    </Button>
-                  </Link>
-                </div>
-
-                <div>
-                  <div className="flex justify-between items-center mb-2">
-                    <h3 className="text-xl font-bold">World Map Updated</h3>
-                    <span className="text-xs text-gray-500">2 weeks ago</span>
-                  </div>
-                  <p className="text-gray-400 mb-4">
-                    The world map has been updated with new settlements and resource locations
-                    discovered by players.
-                  </p>
-                  <Link href="/wiki/world-map">
+                  <Link href="/wiki">
                     <Button
                       variant="outline"
                       className="text-red-500 border-red-600 hover:bg-red-900/20"
