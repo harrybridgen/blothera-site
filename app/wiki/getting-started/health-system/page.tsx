@@ -114,6 +114,7 @@ export default function HealthSystemPage() {
                     </div>
                   </div>
                 </div>
+
                 <Anchor id="healing-mechanics" />
                 <h2 className="text-2xl font-bold mt-8 mb-4 font-minecraft">HEALING MECHANICS</h2>
                 <p className="text-gray-300 mb-4">
@@ -154,6 +155,22 @@ export default function HealthSystemPage() {
                     </div>
                   </div>
                 </div>
+
+                <h2 className="text-2xl font-bold mt-8 mb-4 font-minecraft">GOLDEN APPLES</h2>
+                <p className="text-gray-300 mb-4">
+                  Golden Apples are a key part of the healing system. They are useful throughout the
+                  entire game, and they can be found in chests or crafted.
+                </p>
+                <ul className="list-disc list-inside text-gray-300 space-y-1 mb-4">
+                  <li>
+                    <strong>Regular Golden Apples</strong> are crafted with 8 Gold Ingots and an
+                    Apple
+                  </li>
+                  <li>
+                    <strong>Enchanted Golden Apples</strong> are crafted with 8 Gold Blocks and an
+                    regular Gold Apple
+                  </li>
+                </ul>
 
                 <h2 className="text-2xl font-bold mt-8 mb-4 font-minecraft">BE STRATEGIC</h2>
                 <p className="text-gray-300 mb-4">

@@ -13,9 +13,10 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-black/90 backdrop-blur-sm">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <div className="flex items-center">
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center group">
             <div className="relative">
-              <div className="absolute inset-0 bg-red-500/20 blur-lg rounded-full"></div>
+              <div className="absolute inset-0 bg-red-500/20 blur-lg rounded-full opacity-30 group-hover:animate-pulse-glow" />
+
               <Image
                 src="/images/blothera-logo.png"
                 alt="BLOTHERA"

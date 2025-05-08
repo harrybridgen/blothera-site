@@ -27,6 +27,7 @@ const pageSections: Record<string, Array<{ title: string; anchor: string }>> = {
   '/wiki/getting-started/health-system': [
     { title: 'Death Penalty', anchor: 'death-penalty' },
     { title: 'Healing Mechanics', anchor: 'healing-mechanics' },
+    { title: 'Golden Apple', anchor: 'healing-mechanics' },
   ],
   '/wiki/getting-started/shelter': [
     { title: 'Bloodmoon Preparation', anchor: 'preparing-for-bloodmoons' },
