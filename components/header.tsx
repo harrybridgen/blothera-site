@@ -84,7 +84,7 @@ export default function Header() {
               WIKI
             </Link>
             <Link
-              href="/rules"
+              href="wiki/rules"
               className="text-sm font-medium text-gray-300 hover:text-red-400"
               onClick={() => setIsMenuOpen(false)}
             >
