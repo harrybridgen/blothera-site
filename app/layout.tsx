@@ -3,12 +3,12 @@ import './globals.css'
 import MusicToggle from '@/components/music-toggle'
 
 export const metadata: Metadata = {
-  title: 'Blothera - Minecraft Survival With Meaning',
+  title: 'Blothera',
   description:
     'Blothera is a hardcore Minecraft server with no kits, no cash shops, and no shortcuts. Nations, bloodmoons, and real survival, earn your place in the world.',
   metadataBase: new URL('https://blothera.com'),
   openGraph: {
-    title: 'Blothera - Minecraft Survival With Meaning',
+    title: 'Blothera',
     description:
       'Blothera is a hardcore Minecraft world built around consequences. No griefing. No resets. Only legacy.',
     url: 'https://blothera.com',
