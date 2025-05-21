@@ -1,7 +1,16 @@
 import { Button } from '@/components/ui/button'
 import { Anchor } from '@/components/anchor'
 
-import { ChevronLeft, ChevronRight, Home, Moon, BedDouble, Flame, Compass } from 'lucide-react'
+import {
+  ChevronLeft,
+  ChevronRight,
+  Home,
+  Moon,
+  BedDouble,
+  Flame,
+  Shield,
+  Compass,
+} from 'lucide-react'
 
 import Header from '@/components/header'
 import Footer from '@/components/footer'
@@ -109,12 +118,12 @@ export default function FirstNightSurvivalPage() {
 
                 <div className="my-6 bg-black/40 border border-red-900/30 rounded-lg p-4">
                   <div className="flex items-start gap-3">
-                    <Flame className="h-5 w-5 text-red-500 mt-1 flex-shrink-0" />
+                    <Shield className="h-5 w-5 text-red-500 mt-1 flex-shrink-0" />
                     <div>
-                      <h3 className="font-bold text-white">TIP: Carry Spare Torches</h3>
+                      <h3 className="font-bold text-white">TIP: Shields are powerful</h3>
                       <p className="text-gray-400">
-                        Carry torches in your offhand. They emit light and placing them can help you
-                        explore without F3 coordinates.
+                        Shields can block most damage. Use them to block arrows and melee attacks.
+                        This in useful in world where you do not regenerate health.
                       </p>
                     </div>
                   </div>
