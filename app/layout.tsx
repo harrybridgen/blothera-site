@@ -5,7 +5,7 @@ import MusicToggle from '@/components/music-toggle'
 export const metadata: Metadata = {
   title: 'Blothera',
   description:
-    'Blothera is a hardcore Minecraft server with no kits, no cash shops, and no shortcuts. Nations, bloodmoons, and real survival, earn your place in the world.',
+    'Blothera is a semi-hardcore Minecraft server with no kits, no cash shops, and no shortcuts. Nations, bloodmoons, and real survival, earn your place in the world.',
   metadataBase: new URL('https://blothera.com'),
   openGraph: {
     title: 'Blothera',
