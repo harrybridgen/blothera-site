@@ -1,0 +1,16 @@
+{
+  "rewrites": [],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.blothera.com"
+        }
+      ],
+      "destination": "https://blothera.com/:1",
+      "permanent": true
+    }
+  ]
+}
