@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "http://www.blothera.com/:path*",
+      "destination": "https://blothera.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "https://www.blothera.com/:path*",
+      "destination": "https://blothera.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "http://blothera.com/:path*",
+      "destination": "https://blothera.com/:path*",
+      "permanent": true
+    }
+  ]
+}
