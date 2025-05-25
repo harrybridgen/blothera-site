@@ -10,7 +10,7 @@
           "value": "www.blothera.com"
         }
       ],
-      "destination": "https://blothera.com/:path*",
+      "destination": "https://www.blothera.com/:path*",
       "permanent": true
     },
     {
@@ -21,7 +21,7 @@
           "value": "blothera.com"
         }
       ],
-      "destination": "https://blothera.com/:path*",
+      "destination": "https://www.blothera.com/:path*",
       "permanent": true
     }
   ],
