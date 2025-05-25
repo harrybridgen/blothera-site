@@ -3,23 +3,24 @@
   "framework": "nextjs",
   "redirects": [
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "has": [
         {
           "type": "host",
           "value": "www.blothera.com"
         }
       ],
-      "destination": "https://blothera.com/:1",
-      "permanent": true
-    },
-    {
-      "source": "http://blothera.com/:path*",
       "destination": "https://blothera.com/:path*",
       "permanent": true
     },
     {
-      "source": "http://www.blothera.com/:path*",
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "blothera.com"
+        }
+      ],
       "destination": "https://blothera.com/:path*",
       "permanent": true
     }
