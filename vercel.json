@@ -1,5 +1,6 @@
 {
-  "rewrites": [],
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
   "redirects": [
     {
       "source": "/(.*)",
@@ -11,6 +12,17 @@
       ],
       "destination": "https://blothera.com/:1",
       "permanent": true
+    },
+    {
+      "source": "http://blothera.com/:path*",
+      "destination": "https://blothera.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "http://www.blothera.com/:path*",
+      "destination": "https://blothera.com/:path*",
+      "permanent": true
     }
-  ]
+  ],
+  "trailingSlash": false
 }
